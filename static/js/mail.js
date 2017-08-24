@@ -30,7 +30,7 @@ $(document).ready(function() {
             };
 
             //Ajax post data to server
-            $.post('mail.php', post_data, function(response){  
+            /*$.post('mail.php', post_data, function(response){  
                 
                 if(response.type == 'error'){ //load json data from server and output message     
                         $('#mail_status').html('<div class="alert alert-danger"><strong>Error!</strong> '+response.text+'</div>');
@@ -46,7 +46,11 @@ $(document).ready(function() {
 
                 $("#submit_btn").removeAttr('disabled');
 
-            }, 'json');
+            }, 'json');*/
+            var $form = $('#continua-contact-form');
+            $.post($form.attr("action"), $form.serialize()).then(function() {
+              alert("Thank you!");
+            });
         }else{
             $("#submit_btn").removeAttr('disabled');
         }
