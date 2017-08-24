@@ -21,7 +21,7 @@ $(document).ready(function() {
         if(proceed) //everything looks good! proceed...
         {
             //get input field values data to be sent to server
-            post_data = {
+            /*post_data = {
                 'user_name'     : $('input[name=name]').val(), 
                 'user_email'    : $('input[name=email]').val(), 
                 'phone_number'  : $('input[name=phone]').val(), 
@@ -30,7 +30,7 @@ $(document).ready(function() {
             };
 
             //Ajax post data to server
-            /*$.post('mail.php', post_data, function(response){  
+            $.post('mail.php', post_data, function(response){  
                 
                 if(response.type == 'error'){ //load json data from server and output message     
                         $('#mail_status').html('<div class="alert alert-danger"><strong>Error!</strong> '+response.text+'</div>');
@@ -49,8 +49,16 @@ $(document).ready(function() {
             }, 'json');*/
             var $form = $('#continua-contact-form');
             $.post($form.attr("action"), $form.serialize()).then(function() {
-              alert("Thank you!");
-            });
+                $('#mail_status').html('<div class="alert alert-success"><strong>Success!</strong> '+response.text+'</div>');
+                $('input[name=name]').val("");
+                $('input[name=email]').val("");
+                $('input[name=phone]').val("");
+                $('input[name=website]').val("");
+                $('input[name=comment]').val(),
+                $('textarea[name=message]').val("");
+            }).fail(function(response) {
+                $('#mail_status').html('<div class="alert alert-danger"><strong>Error!</strong> Sorry, an unexpected error occured. Please try again later.</div>');
+            });;
         }else{
             $("#submit_btn").removeAttr('disabled');
         }
