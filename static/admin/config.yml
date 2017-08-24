@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
-site_id: continuasolutions.netlify.com
+site_id: c8b98f6f-6e1a-4fd2-99e0-02637b606e2e
 collections:
   - name: "team" # Used in routes, e.g., /admin/collections/blog
     label: "Team" # Used in the UI
