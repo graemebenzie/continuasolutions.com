@@ -49,7 +49,7 @@ $(document).ready(function() {
             }, 'json');*/
             var $form = $('#continua-contact-form');
             $.post($form.attr("action"), $form.serialize()).then(function() {
-                $('#mail_status').html('<div class="alert alert-success"><strong>Success!</strong> '+response.text+'</div>');
+                $('#mail_status').html('<div class="alert alert-success"><strong>Success!</strong> Thank you for your message.</div>');
                 $('input[name=name]').val("");
                 $('input[name=email]').val("");
                 $('input[name=phone]').val("");
