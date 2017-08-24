@@ -4,7 +4,6 @@ backend:
   branch: master # Branch to update
   media_folder: "static/images/uploads"
   public_folder: "/images/uploads"
-
 collections:
   - name: "team" # Used in routes, e.g., /admin/collections/blog
     label: "Team" # Used in the UI
