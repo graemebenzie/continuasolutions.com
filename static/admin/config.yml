@@ -27,4 +27,21 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}        
+      - {label: "Body", name: "body", widget: "markdown"}  
+  - name: "testimonials" # Used in routes, e.g., /admin/collections/blog
+    label: "Testimonials" # Used in the UI
+    folder: "content/testimonials" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}              
+      - {label: "Draftp", name: "draft", widget: "boolean"}
+      - {label: "Exclude From SiteMap", name: "excludeFromSiteMap", widget: "boolean"}
+
+title: "Bojan Paunavic"
+date: 2017-08-24T15:54:24+01:00
+draft: false
+excludeFromSiteMap: true      
