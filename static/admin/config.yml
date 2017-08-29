@@ -40,8 +40,3 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}              
       - {label: "Draftp", name: "draft", widget: "boolean"}
       - {label: "Exclude From SiteMap", name: "excludeFromSiteMap", widget: "boolean"}
-
-title: "Bojan Paunavic"
-date: 2017-08-24T15:54:24+01:00
-draft: false
-excludeFromSiteMap: true      
