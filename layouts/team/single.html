@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{ $cols := split .Content "<split>" }}
+<div class="uv-rounds">  
+  <header>
+      {{ partial "topbar.html" . }}
+      {{ partial "navigation.html" (dict "page" "team" ) }}
+  </header>
+  <div class="inner-banner">
+      <img src="/images/team-banner.jpg" alt="team">
+      <h2 class="team">Our Team</h2>
+  </div>     
+  <div class="what-we blue-background">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 m48">
+          <h1>{{ .Params.jobtitle }}<span class="all-level">{{ .Params.name }}<span class="all-level degree-letters">{{ .Params.degreeletters }}</span></span></h1>          
+        </div>
+        <div class="col-xs-12">
+  
+          <div class="portrait-photo">
+            <div class="portrait-photo-wrap">
+              <img src="/images/{{ .Params.image }}" alt="{{ .Params.name }} " />
+              {{ if isset .Params "linkedinpage" }}
+                <a class="portrait-linkedin" href="{{ .Params.linkedinpage }}">
+                  <img src="/images/linkedin.png" alt="Lynne Ramsey Linkedin" />
+                </a>
+              {{ end }}
+              </div>
+            <div class="key-skills">
+              {{ index $cols 1 | safeHTML }}
+            </div>
+          </div>
+  
+          <div class="consultant-content">
+              {{ index $cols 0 | safeHTML }}
+
+              <div>
+                  <a class="previous" href="/team/">Our Team</a> |
+                  {{ with .PrevInSection }}
+                    <a class="previous" href="{{.Permalink}}"> Previous </a>
+                  {{ end }}
+                  {{ with and .PrevInSection .NextInSection }} | {{ end }}
+                  {{ with .NextInSection }}
+                    <a class="next" href="{{.Permalink}}"> Next</a>
+                  {{ end }}
+              </div>   
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+{{end}}
+
+

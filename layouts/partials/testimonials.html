@@ -1,0 +1,7 @@
+{{ range where .Data.Pages "Section" "testimonials" }}
+<div class="item">
+    <div class="item-group no-image">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }} 

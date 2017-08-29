@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="uv-rounds">  
+    <header>
+        {{ partial "topbar.html" . }}
+        {{ partial "navigation.html" (dict "page" "team" ) }}
+    </header>
+    <div class="inner-banner">
+        <img src="/images/team-banner.jpg" alt="team">
+        <h2 class="team">Our Team</h2>
+    </div> 
+    <div class="team-quote">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h1>
+                        WITH AN ESTABLISHED NETWORK OF HIGHLY EXPERIENCED AND INDEPENDENT PROFESSIONALS CONTINUA BUILDS BESPOKE TEAMS TO MEET PROJECT OBJECTIVES
+                    </h1>
+                    <p>Lynne Ramsey, Owner, Continua Solutions LLC</p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="/images/ideas.jpg" class="ideas-image" alt="ideas" />
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title_number">01</div>
+                    <h1 class="m-bottom">Team<span class="all-level">Meet our team</span></h1>
+                </div><!-- /.col-sm-12 -->
+                {{ range .Data.Pages.ByParam "order" }}
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
+                        <div class="team-members">
+                            <a href="{{.Permalink}}"><img src="/images/{{ .Params.thumbnail }}" alt="team member" /></a>
+                            <div class="team-member-details">
+                                <a href="{{.Permalink}}"><h2>{{ .Params.name }}<span>{{ .Params.jobtitle }}</span></h2></a>
+                                <div class="blurb">{{ .Params.blurb }}</div> 
+                                <!--<div class="team-member-socials">
+                                    <a href="#"><i class="fa team-member-icons fa-facebook"></i></a>
+                                    <a href="#"><i class="fa team-member-icons fa-twitter"></i>
+                                    </a><a href="#"><i class="fa team-member-icons fa-google-plus"></i></a>
+                                </div>--><!-- /.team-member-socials -->
+                            </div><!-- /.team-member-details -->
+                        </div><!-- /.team-members -->
+                    </div><!-- /.col-lg-3 -->
+                {{ end }}
+            </div>
+        </div>
+    </div>
+{{ end }}

@@ -73,6 +73,13 @@ h1 {
     font-size: 36px;
     font-weight: 800;
 }
+h2{
+	margin-bottom:1em;
+}
+ul{
+	margin-bottom:1em;
+	padding-left:1.4em;
+}
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
     display:block;
@@ -2111,6 +2118,7 @@ input.highlight-error, textarea.highlight-error{
 		float:none;	
 		display:inline-block;
 		margin-bottom:1em;			
+		max-width: initial;
 	}
 
 	.portrait-photo img{
@@ -2119,6 +2127,12 @@ input.highlight-error, textarea.highlight-error{
 
 	.consultant-content{
 		width:100%;
+	}
+
+	.portrait-linkedin{
+		right: initial;
+		left: 4px;
+		bottom:4px;
 	}
 }
 
@@ -2220,4 +2234,29 @@ li img.banner-logo{
 	height:1.2em;
 	float:none;
 	vertical-align:text-top;
+}
+
+.team-quote{
+	width:100%;
+	float:left;
+	text-align: left;
+	padding-top:3em;
+	padding-bottom:3em;
+}
+
+.team-quote h1{
+	font-weight:300;
+}
+
+.key-skills{
+	margin-top:2em;
+}
+
+.portrait-photo-wrap{
+	position:relative;
+}
+
+.ideas-image{
+	max-width:100%;
+	margin-top:2em;
 }
