@@ -423,7 +423,7 @@ header {
 	font-family: 'Karla', sans-serif;
 	padding-top:22px;
 }
-.client-section h2 span {
+.blue-text {
 	color:#4f85b3;
 	display:block;
 	padding-top:6px;
@@ -2259,4 +2259,8 @@ li img.banner-logo{
 .ideas-image{
 	max-width:100%;
 	margin-top:2em;
+}
+
+.testimonial p{
+	margin-bottom: 0.8em;
 }

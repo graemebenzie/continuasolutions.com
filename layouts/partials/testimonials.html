@@ -1,7 +1,13 @@
-{{ range where .Data.Pages "Section" "testimonials" }}
-<div class="item">
+{{ $testimonials := where .Data.Pages "Section" "testimonials" }}
+{{ range ($testimonials.ByParam "order") }}
+<div class="item testimonial">
     <div class="item-group no-image">
+        {{ with .Params.project }} 
+            <p><i><b>Project:</b> Premier Oates Drilling Program</i></p>
+        {{ end }}
         {{ .Content }}
+        <p><b>{{ upper .Title  }}</b><br>
+        <span class="blue-text">{{ upper .Params.jobtitle  }}</span></p>
     </div>
 </div>
 {{ end }} 
