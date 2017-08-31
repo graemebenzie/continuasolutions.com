@@ -27,11 +27,14 @@
               {{ end }}
               </div>
             <div class="key-skills">
-              {{ index $cols 1 | safeHTML }}
+                {{ with index $cols 1 }}
+                  {{ index $cols 1 | safeHTML }}
+                {{ end }}
             </div>
           </div>
   
           <div class="consultant-content">
+            
               {{ index $cols 0 | safeHTML }}
 
               <div>
