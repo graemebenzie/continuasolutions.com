@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="uv-rounds">  
+    <header>
+        {{ partial "topbar.html" . }}
+        {{ partial "navigation.html" (dict "page" "projects" ) }}
+    </header>
+    <div class="inner-banner">
+        <img src="/images/team-banner.jpg" alt="team">
+        <h2 class="team">Projects</h2>
+    </div> 
+
+<!-- ============== Start up section ============== -->
+
+<div class="what-we">
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-12">
+          <div class="title_number">01</div>
+              <h1>Our Projects<span class="all-level">featured works</span></h1>
+         </div><!-- /.col-sm-12 -->
+      </div><!-- /.row -->
+      </div><!-- /.container -->
+  </div><!-- /.what-we -->
+
+<!-- ============== portfolio mansory section ============== -->
+
+<div class="portfolio-grid">
+    <div class="container">
+      <div class="row">
+        <div class="portfolio-items-wrapper ">
+                {{ range .Data.Pages.ByParam "order" }}
+                  <div class="portfolio-items-single col-lg-6 col-md-6 col-sm-6 col-xs-6 w100 hidden-item">
+                      <a class="portfolio-items-single-url" href="{{.Permalink}}" title="{{ .Title }}">
+                      <img src="/images/{{ .Params.image }}" class="attachment-full" alt="folio7" />
+                      <div class="portfolio-items-single-overlay-details">
+                      <div class="portfolio-items-single-overlay-details-inside-wrapper">
+                      <div class="portfolio-items-single-overlay-details-inside">
+                      <h1 class="portfolio-items-single-overlay-details-title" >{{ .Title }}</h1>
+                      <i class="fa portfolio-items-single-overlay-details-icon fa-search" ></i>
+                      <div class="clear"></div>
+                      </div>
+                      </div>
+                      </div>
+                      </a>
+                  </div>
+              {{ end }}
+                   
+          </div><!-- /.portfolio-items-wrapper -->
+      </div><!-- /.row -->
+      </div><!-- /.container -->
+  </div><!-- /.portfolio-mansory -->
+    {{ partial "footer.html" . }}
+</div>
+{{ end }}
