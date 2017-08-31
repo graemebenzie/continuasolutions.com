@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ $cols := split .Content "<split>" }}
+<div class="uv-rounds">  
+  <header>
+      {{ partial "topbar.html" . }}
+      {{ partial "navigation.html" (dict "page" "project" ) }}
+  </header>
+  <div class="inner-banner">
+      <img src="/images/team-banner.jpg" alt="team">
+      <h2 class="team">Projects</h2>
+  </div>     
+  <!-- ============== Start up section ============== -->
+
+<div class="what-we projects">
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-12 m48">
+        <div class="title_number">01</div>
+              <h1>{{ .Title }}<span class="all-level">{{ .Params.subtitle }}</span></h1>
+         </div><!-- /.col-sm-12 -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w100">
+            {{ index $cols 0 | safeHTML }}
+          </div><!-- /.col-lg-6 -->
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w100">
+              {{ index $cols 1 | safeHTML }}
+          </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->
+      </div><!-- /.container -->
+  </div><!-- /.what-we -->
+
+  {{ partial "footer.html" . }}
+</div>
+{{end}}
+
+
