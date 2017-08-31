@@ -679,6 +679,7 @@ header {
 	margin-bottom:30px;
 	background:#fff;
 	transition-duration: 1s;
+	min-height:550px
 }
 .team-members:hover {
 	box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.3);
