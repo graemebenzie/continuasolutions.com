@@ -22,7 +22,9 @@
             {{ index $cols 0 | safeHTML }}
           </div><!-- /.col-lg-6 -->
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w100">
-              {{ index $cols 1 | safeHTML }}
+              {{ with index $cols 1 }}
+                {{ index $cols 1 | safeHTML }}
+              {{ end }}
           </div><!-- /.col-lg-6 -->
       </div><!-- /.row -->
       </div><!-- /.container -->
