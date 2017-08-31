@@ -2271,6 +2271,7 @@ ul.start-up-list{
 
 .header-logo{
 	height:33px;
+	max-width: none;
 }
 
 li img.banner-logo{
