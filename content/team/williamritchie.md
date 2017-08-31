@@ -3,7 +3,6 @@ order: 2
 title: "williamritchie"
 date: 2017-08-25T09:14:21+01:00
 draft: false
-excludeFromSiteMap: true
 name: William Ritchie
 jobtitle: Environmental Advisor/Reviewer
 image: "williamritchie.jpg"

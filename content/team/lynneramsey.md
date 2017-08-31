@@ -3,7 +3,6 @@ order: 4
 title: "Lynneramsey"
 date: 2017-08-25T09:14:21+01:00
 draft: false
-excludeFromSiteMap: true
 linkedinpage: "https://www.linkedin.com/in/lynneramsey"
 name: Lynne Ramsey
 degreeletters: ", BA (Hons), MSc"

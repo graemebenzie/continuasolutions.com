@@ -3,7 +3,6 @@ order: 1
 title: "zoecairns"
 date: 2017-08-25T09:14:21+01:00
 draft: false
-excludeFromSiteMap: true
 name: Zoë Cairns
 jobtitle: Principal Environmental Consultant
 image: "zoecairns.jpg"
