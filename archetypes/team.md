@@ -3,7 +3,6 @@ order: ""
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 draft: false
-linkedinpage: ""
 name: ""
 degreeletters: ""
 jobtitle: ""
