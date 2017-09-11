@@ -27,8 +27,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="title_number">01</div>
-                    <h1 class="m-bottom">Team<span class="all-level">Meet our team</span></h1>
+                    <h1 class="m-bottom">Core Team<span class="all-level">Meet Continuas Associates</span></h1>
                 </div><!-- /.col-sm-12 -->
                 {{ range .Data.Pages.ByParam "order" }}
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
@@ -38,6 +37,7 @@
                                 <div class="team-member-details">
                                     <h2>{{ .Params.name }}<span>{{ .Params.jobtitle }}</span></h2>
                                     <div class="blurb">{{ .Params.blurb }}</div> 
+                                    <p>Click for more..</p>
                                     <!--<div class="team-member-socials">
                                         <a href="#"><i class="fa team-member-icons fa-facebook"></i></a>
                                         <a href="#"><i class="fa team-member-icons fa-twitter"></i>
