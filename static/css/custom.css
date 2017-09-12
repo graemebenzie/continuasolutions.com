@@ -714,6 +714,9 @@ header {
 	background:#e5eef0;
 	padding:80px 0;
 }
+.owner-section{
+	background-color: rgba(229, 238, 240, 0.47);
+}
 .team-members {
 	border: 1px solid #e6edee;
     overflow: hidden;
@@ -747,7 +750,7 @@ header {
 .team-members h2 span {
     color: #ab8ac0;
     letter-spacing: 1px;
-    line-height: 1;
+    line-height: 1.3em;
     text-transform: capitalize;
 	display:block;
 	padding-top:5px;

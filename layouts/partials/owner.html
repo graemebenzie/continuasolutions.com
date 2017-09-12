@@ -1,0 +1,21 @@
+{{ range .Data.Pages.ByDate }}
+    {{ if eq "Owner" .Params.Status}}
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 w100">
+        <a href="{{.Permalink}}">
+            <div class="team-members">
+                <img src="/images/{{ .Params.thumbnail }}" alt="team member" />
+                <div class="team-member-details">
+                    <h2>{{ .Params.name }}<span>{{ .Params.jobtitle }}</span></h2>
+                    <div class="blurb">{{ .Params.blurb }}</div> 
+                    <p>Click for more..</p>
+                    <!--<div class="team-member-socials">
+                        <a href="#"><i class="fa team-member-icons fa-facebook"></i></a>
+                        <a href="#"><i class="fa team-member-icons fa-twitter"></i>
+                        </a><a href="#"><i class="fa team-member-icons fa-google-plus"></i></a>
+                    </div>--><!-- /.team-member-socials -->
+                </div><!-- /.team-member-details -->                        
+            </div><!-- /.team-members -->
+        </a>
+    </div><!-- /.col-lg-3 -->
+    {{ end }}
+{{ end }}

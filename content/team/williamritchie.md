@@ -1,7 +1,6 @@
 ---
-order: 2
 title: "williamritchie"
-date: 2017-08-25T09:14:21+01:00
+date: 2017-08-02T09:14:21+01:00
 draft: false
 name: Proffessor William Ritchie
 jobtitle: Environmental Advisor/Reviewer
