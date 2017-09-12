@@ -2174,7 +2174,9 @@ input.highlight-error, textarea.highlight-error{
 .portrait-linkedin{
 	position:absolute;
 	right:4px;
-	bottom:4px;
+	bottom:12px;
+	width: 48px;
+	height: 48px;
 }
 
 @media screen and ( max-width: 800px ){
@@ -2196,7 +2198,7 @@ input.highlight-error, textarea.highlight-error{
 	.portrait-linkedin{
 		right: initial;
 		left: 4px;
-		bottom:4px;
+		bottom:12px;
 	}
 }
 
