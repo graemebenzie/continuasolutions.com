@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="uv-rounds">  
+    <header>
+        {{ partial "topbar.html" . }}
+        {{ partial "navigation.html" (dict "page" "team" ) }}
+    </header>
+    <div class="inner-banner">
+        <img src="/images/team.jpg" alt="team">
+        <h2 class="team"><div>Testimonials</div></h2>
+    </div> 
+
+    <!-- ============== client section ============== -->   
+    
+    <div class="client-section pink-background">
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Recommendations<span class="all-level"></span></h1>
+                <div class="owl-outer">
+                    <div id="owl-demo" class="owl-carousel owl-theme">                  
+    
+                        {{ partial "testimonials.html" . }}
+    
+                    </div>
+                </div><!-- /.owl-outer -->        
+            </div><!-- /.col-sm-12 -->
+        </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.client-section -->  
+
+    {{ partial "footer.html" . }}
+</div>
+{{ end }}

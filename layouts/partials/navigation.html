@@ -24,6 +24,12 @@
                   <li><a href="/">Home</a></li>
                 {{ end }}
 
+                {{ if eq .page "testimonials" }}                  
+                  <li class="active"><a href="/testimonials/">Testimonials</a></li>
+                {{ else }}
+                  <li><a href="/testimonials/">Testimonials</a></li>
+                {{ end }}                  
+
                 {{ if eq .page "team" }}                  
                   <li class="active"><a href="/team/">Team</a></li>
                 {{ else }}
