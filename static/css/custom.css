@@ -1801,8 +1801,25 @@ footer { background-size:197px 197px; }
 
 	} /* End query */	
 
+
+.start-image { width:30%; position:absolute; bottom:64px; max-width: 300px; display: none;}
+
+.inline-start-image{
+	width: 30%;
+	min-width: 200px;
+	margin: 20px 0;
+}
+
+@media (min-width:768px){
+	.inline-start-image{
+		display:none;
+	}
+	.start-image {
+		display: inline;
+	}	
+}
+
 @media (max-width:1200px){
-.start-left img { width:100%; }
 .team-members h2 { font-size:12px; }
 .price-lute { width:72px; }
 /*footer {background-size:154px 162px;}*/
