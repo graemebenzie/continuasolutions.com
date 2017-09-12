@@ -2240,6 +2240,22 @@ input.highlight-error, textarea.highlight-error{
 	font-family:"Courier New", Courier, monospace;
 }
 
+.team-quote{
+	width:100%;
+	float:left;
+	text-align: left;
+	padding-top:3em;
+	padding-bottom:3em;
+}
+
+.team-quote h1{
+	font-weight:300;
+	font-size:36px;
+	text-transform: none;
+	line-height:1.3em;
+	margin-top:48px;
+}
+
 @media screen and ( max-width: 650px ){
 	.top-section .container{
 		display:none;
@@ -2255,6 +2271,27 @@ input.highlight-error, textarea.highlight-error{
 	}
 	.navbar-toggle{
 		margin-top:0;
+	}
+
+	.team-quote h1{		
+		font-size:28px;
+	}
+}
+
+.ideas-image{
+	max-width:100%;
+	margin-top:32px;
+}
+
+@media screen and ( max-width: 1200px ){
+	.ideas-image{
+		margin-top: 80px;
+	}
+}
+
+@media screen and ( max-width: 768px ){
+	.ideas-image{
+		margin-top: 32px;
 	}
 }
 
@@ -2281,29 +2318,12 @@ li img.banner-logo{
 	vertical-align:text-top;
 }
 
-.team-quote{
-	width:100%;
-	float:left;
-	text-align: left;
-	padding-top:3em;
-	padding-bottom:3em;
-}
-
-.team-quote h1{
-	font-weight:300;
-}
-
 .key-skills{
 	margin-top:2em;
 }
 
 .portrait-photo-wrap{
 	position:relative;
-}
-
-.ideas-image{
-	max-width:100%;
-	margin-top:2em;
 }
 
 .testimonial p{
