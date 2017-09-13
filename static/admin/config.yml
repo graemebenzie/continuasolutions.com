@@ -2,8 +2,8 @@ backend:
   name: github
   repo: graemebenzie/continuasolutions.com # Path to your Github repository
   branch: release # Branch to update
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "static/images"
+public_folder: "/images"
 site_id: continuasolutions.netlify.com
 collections:
   - name: "slider" # Used in routes, e.g., /admin/collections/blog
