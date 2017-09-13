@@ -2254,6 +2254,8 @@ input.highlight-error, textarea.highlight-error{
 	background-color:rgb(235, 241, 245);
 	margin-bottom:1em;
 	line-height:1.5em;
+	font-style: italic;
+	font-size: 1.2em;
 }
 
 .signature{
