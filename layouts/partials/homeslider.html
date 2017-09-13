@@ -1,0 +1,52 @@
+<div class="banner-structure">
+    <ul class="banner_slider">
+        {{ $slides := where .Data.Pages "Section" "slider" }}
+        {{ range ($slides.ByParam "order") }}
+        <li><img src="images/{{ .Params.Image }}" alt="banner" />
+            <div class="text-banner">
+            <h2 class="roboto">
+                <!--<img class="banner-logo" src="images/continua-white.svg" alt="" />--></img>
+                {{ upper .Params.heading  }}
+                {{ with .Params.subheading }}
+                  <span>{{ . }}</span>                    
+                {{ end }}
+            </h2> 
+        </div>
+        </li>
+        {{ end }} 
+        <!--<li><img src="images/continua.jpg" alt="banner" />
+            <div class="text-banner">
+            <h2 class="roboto">                
+                Continua Solutions<span>Quality, Health, Safety and Environmental (QHSE) support to the Energy Industry</span>                    
+            </h2> 
+        </div>
+        </li>
+        <li><img src="images/rig.jpg" alt="banner" />
+            <div class="text-banner">
+            <h2 class="roboto">
+                Environmental Support
+                <span>Simple Scalable Solutions with the Personal Touch</span>
+            </h2> 
+        </div>
+        </li>
+        <li><img src="images/graph.jpg" alt="banner" />
+            <div class="text-banner">
+            <h2 class="roboto">
+                QHSE Management Systems
+                <span>Simple Scalable Solutions with the Personal Touch</span>
+            </h2> 
+        </div>
+        </li>-->
+    </ul>
+
+    <div id="bx-pager">
+        {{ range $index, $item := ($slides.ByParam "order") }}
+          <a data-slide-index="{{ $index }}" href=""><img src="images/{{ $item.Params.thumbnail }}" alt="banner-thumb" /></a>
+        {{ end }}
+        <!--
+        <a data-slide-index="0" href=""><img src="images/continua.png" alt="banner-thumb" /></a>
+        <a data-slide-index="1" href=""><img src="images/rig.png" alt="banner-thumb" /></a>
+        <a data-slide-index="2" href=""><img src="images/graph.png" alt="banner-thumb" /></a>
+        -->
+    </div>
+</div><!-- /.banner-structure -->
