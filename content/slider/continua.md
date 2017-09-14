@@ -1,10 +1,11 @@
 ---
 order: 1
-date: 2017-08-24T15:54:24+01:00
+date: 2017-08-24T14:54:24.000Z
 draft: false
 excludeFromSiteMap: true
 heading: Continua Solutions
-subheading: Quality, Health, Safety and Environmental (QHSE) support to the Energy Industry
+subheading: ' '
 image: continua.jpg
 thumbnail: continua.png
 ---
+
