@@ -1,12 +1,12 @@
 ---
 title: "williamritchie"
-date: 2017-08-02T09:14:21+01:00
+date: 2017-08-05T09:14:21+01:00
 draft: false
-name: Proffessor William Ritchie
+name: William Ritchie
 jobtitle: Environmental Advisor/Reviewer
 image: "williamritchie.jpg"
 thumbnail: "williamritchie.jpg"
-blurb: Professor William Ritchie OBE, B.Sc, Ph.D.(Glasgow), D.Univ. (Stirling), D.Sc. (Lancaster) ,FRSGS, FRICS, FRS(Edinburgh).
+blurb: Coastal environmental scientist and government advisor specializing in oil spill preparedness, monitoring and compliance.
 ---
 
 ## Biography

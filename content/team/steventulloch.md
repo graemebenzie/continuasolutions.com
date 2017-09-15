@@ -3,16 +3,16 @@ title: "steventulloch"
 date: 2017-08-04T09:14:21+01:00
 draft: false
 name: Steven Tulloch
-jobtitle: Process Engineer / Environmental Consultant (Contractor)
+jobtitle: Process Engineer / Environmental Consultant
 image: "StevenTulloch.jpg"
 thumbnail: "StevenTulloch.jpg"
-blurb: Chartered Process Engineer with over twenty five years’ experience in the field of environmental and process engineering.
+blurb: Chartered process engineer with over 25 years’ experience in the field of environmental and process engineering.
 ---
 
 ## Biography
 
 <p>
-    A Chartered Process Engineer with over twenty five years’ experience
+    A Chartered Process Engineer with over 25 years’ experience
     in the field of environmental and process engineering. Wide range of
     experience, both technically and practically, primarily in the oil & gas
     industry but also in the provision of project management support to

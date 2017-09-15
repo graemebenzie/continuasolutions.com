@@ -5,17 +5,17 @@ date: 2017-08-25T09:14:21+01:00
 draft: false
 name: Lynne Ramsey
 degreeletters: ", BA (Hons), MSc"
-jobtitle: Principal QHSE Consultant
+jobtitle: Owner and Principal QHSE Consultant
 image: "lynneramsey.jpg"
 thumbnail: "lynneramsey-thumb.jpg"
-blurb: Continuas owner and principal consultant, Lynne Ramsey, is a QHSE professional with over 10 years of oil and gas experience.
+blurb: Lynne Ramsey, is a QHSE professional with over 10 years of oil and gas experience.
 linkedinpage:  https://www.linkedin.com/in/lynneramsey
 ---
 
 ## Biography
 
 <p>
-    Continuas owner and principal consultant, Lynne Ramsey, is a QHSE
+    Lynne Ramsey, is a QHSE
     professional with over 10 years of oil and gas experience. Originally from
     an environmental background (beginning in the UK supporting North Sea
     assets) Lynne has been working in Texas for the last five years with a

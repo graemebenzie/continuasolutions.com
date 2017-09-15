@@ -1,12 +1,12 @@
 ---
 title: "nigelblake"
-date: 2017-08-05T09:14:21+01:00
+date: 2017-08-02T09:14:21+01:00
 draft: false
 name: Nigel Blake
-jobtitle: Principal Environmental, Safety and Risk Engineer (Contractor)
+jobtitle: Principal Environmental, Safety and Risk Engineer
 image: "nigelblake.jpg"
 thumbnail: "nigelblake.jpg"
-blurb: Chartered Process Engineer with over twenty five years’ experience in the field of environmental and process engineering.
+blurb: Chartered chemical engineer with over 30 years’ experience in a variety of industries, majoring in oil & gas.
 ---
 
 ## Biography

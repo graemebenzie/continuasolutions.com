@@ -16,8 +16,9 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Exclude from Sitemap", name: "excludeFromSiteMap", widget: "hidden", default: true} 
-      - {label: "Heading", name: "heading", widget: "string"}      
-      - {label: "Sub Heading", name: "subheading", widget: "string"}      
+      - {label: "Logo", name: "logo", widget: "image", required: false}
+      - {label: "Heading", name: "heading", widget: "string", required: false}
+      - {label: "Sub Heading", name: "subheading", widget: "string", required: false}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"} 
   - name: "team" # Used in routes, e.g., /admin/collections/blog
@@ -30,8 +31,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Degree Letters", name: "degreeletters", widget: "string"}      
-      - {label: "Job Title", name: "jobtitle", widget: "string"}      
+      - {label: "Degree Letters", name: "degreeletters", widget: "string", required: false}
+      - {label: "Job Title", name: "jobtitle", widget: "string", required: false}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Blurb", name: "blurb", widget: "string"}
@@ -42,12 +43,16 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter      
-      - {label: "Order", name: "order", widget: "number"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Sub Title", name: "subtitle", widget: "string"}
+      - {label: "Title", name: "title", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Image 1", name: "image1", widget: "image", required: false}
+      - {label: "Image 1 Caption", name: "image1caption", widget: "string", required: false}
+      - {label: "Image 2", name: "image2", widget: "image", required: false}
+      - {label: "Image 2 Caption", name: "image2caption", widget: "string", required: false}
+      - {label: "Image 3", name: "image3", widget: "image", required: false}
+      - {label: "Image 3 Caption", name: "image3caption", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "clients" # Used in routes, e.g., /admin/collections/blog
     label: "Clients" # Used in the UI
@@ -57,9 +62,9 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Job Title", name: "jobtitle", widget: "string"}  
-      - {label: "Project", name: "project", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}      
+      - {label: "Job Title", name: "jobtitle", widget: "string", required: false}
+      - {label: "Project", name: "project", widget: "string", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}              
       - {label: "Exclude from Sitemap", name: "excludeFromSiteMap", widget: "hidden", default: true} 

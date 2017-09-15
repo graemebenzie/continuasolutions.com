@@ -370,7 +370,7 @@ header {
 	font-size:14px;
 	color:#55595f;
 	line-height:24px;
-	padding:16px 0 16px 0;
+	padding:0 0 16px 0;
 }
 .start-right h2 {
     color: #23282f;
@@ -725,7 +725,7 @@ header {
 	margin-bottom:30px;
 	background:#fff;
 	transition-duration: 1s;
-	min-height:550px
+	min-height:580px
 }
 .team-members:hover {
 	box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.3);
@@ -1810,16 +1810,7 @@ footer { background-size:197px 197px; }
 .inline-start-image{
 	width: 30%;
 	min-width: 200px;
-	margin: 20px 0;
-}
-
-@media (min-width:768px){
-	.inline-start-image{
-		display:none;
-	}
-	.start-image {
-		display: inline;
-	}	
+	margin: 40px 0 40px 0;
 }
 
 @media (max-width:1200px){
@@ -2258,6 +2249,14 @@ input.highlight-error, textarea.highlight-error{
 	font-size: 1em;
 }
 
+.text-style, div.text-style p{
+	font-weight: 300;
+	font-size: 17px;
+	text-transform: none;
+	line-height: 1.3em;
+	
+}
+
 .signature{
 	text-align:right;
 	margin:0 1em 0 0;
@@ -2278,6 +2277,13 @@ input.highlight-error, textarea.highlight-error{
 	text-transform: none;
 	line-height:1.3em;
 	margin-top:48px;
+}
+
+h1.home-quote{
+	font-weight:300;
+	font-size:36px;
+	text-transform: none;
+	line-height:1.3em;
 }
 
 h2.team div{
@@ -2414,4 +2420,17 @@ li img.banner-logo{
 
 .continua-news p{
 	margin-bottom:2em
+}
+
+.banner-structure img.slider-logo{
+	width: 70px;
+	height:70px;
+	position:absolute;
+	top:-70px;
+	margin-left:-35px;
+}
+
+.home-page-lists{
+	margin-top:48px;
+	margin-bottom:32px;
 }

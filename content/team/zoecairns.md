@@ -6,7 +6,7 @@ name: Zoë Cairns
 jobtitle: Principal Environmental Consultant
 image: "zoecairns.jpg"
 thumbnail: "zoecairns.jpg"
-blurb: Zoë has worked in the upstream oil and gas environmental field since the early 1990s.
+blurb: Senior environmentalist with extensive experience supporting energy projects from concept select through to decommissioning.
 ---
 
 ## Biography

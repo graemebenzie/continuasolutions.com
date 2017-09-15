@@ -6,7 +6,7 @@ name: Jenna McGuinness
 jobtitle: Environmental Consultant
 image: "jennamcguinness.jpg"
 thumbnail: "jennamcguinness.jpg"
-blurb: Jenna has over 10 years environmental consulting experience (with 6 in oil and gas specifically).
+blurb: Marine and environmental biologist specializing in the complexities and interactions between onshore and offshore ecosystems.
 ---
 
 ## Biography

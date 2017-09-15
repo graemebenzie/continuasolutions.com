@@ -1,13 +1,11 @@
 {{ define "main" }}
-{{ $cols := split .Content "<split>" }}
 <div class="uv-rounds">  
   <header>
       {{ partial "topbar.html" . }}
       {{ partial "navigation.html" (dict "page" "news" ) }}
   </header>
   <div class="inner-banner">
-      <img src="/images/continua-banner.jpg" alt="team">      
-      <h2 class="team">News</h2>
+      <img src="/images/news.jpg" alt="team">
   </div>     
   <!-- ============== Start up section ============== -->
 
@@ -18,12 +16,39 @@
             <h1>{{ .Title }}<span class="all-level">{{ .Params.subtitle }}</span></h1>
         </div><!-- /.col-sm-12 -->
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w100">
-            {{ index $cols 0 | safeHTML }}
+            {{ .Content }}
           </div><!-- /.col-lg-6 -->
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w100">
-              {{ with index $cols 1 }}
-                {{ index $cols 1 | safeHTML }}
-              {{ end }}
+            <figure>             
+                {{ with .Params.Image1 }}   
+                    <img src="/images/{{ . }}">
+                {{end}}
+                {{ with .Params.Image1Caption }}   
+                    <figcaption>
+                        <h4>{{ . }}</h4>                    
+                    </figcaption>    
+                {{end}}                            
+            </figure><br>
+            <figure>             
+                {{ with .Params.Image2 }}   
+                    <img src="/images/{{ . }}">
+                {{end}}
+                {{ with .Params.Image2Caption }}   
+                    <figcaption>
+                        <h4>{{ . }}</h4>                    
+                    </figcaption>    
+                {{end}}                            
+            </figure><br>
+            <figure>             
+                    {{ with .Params.Image3 }}   
+                        <img src="/images/{{ . }}">
+                    {{end}}
+                    {{ with .Params.Image3Caption }}   
+                        <figcaption>
+                            <h4>{{ . }}</h4>                    
+                        </figcaption>    
+                    {{end}}                            
+                </figure>                        
           </div><!-- /.col-lg-6 -->
       </div><!-- /.row -->
       </div><!-- /.container -->
