@@ -9,7 +9,7 @@
             {{ end }}                
             <h2 class="roboto">
                 <!--<img class="banner-logo" src="images/continua-white.svg" alt="" />--></img>
-                {{ upper .Params.heading  }}
+                {{ .Params.heading | safeHTML }}
                 {{ with .Params.subheading }}
                   <span>{{ . }}</span>                    
                 {{ end }}
