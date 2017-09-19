@@ -2434,3 +2434,10 @@ li img.banner-logo{
 	margin-top:48px;
 	margin-bottom:32px;
 }
+
+.banner-structure img.text-symbol{
+	float: none;
+	position: relative;
+	top: 1px;
+	width:0.76em;
+}
