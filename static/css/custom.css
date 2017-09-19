@@ -2438,6 +2438,7 @@ li img.banner-logo{
 .banner-structure img.text-symbol{
 	float: none;
 	position: relative;
-	top: 1px;
-	width:0.76em;
+	top: 0.1em;
+	width: 0.95em;
+	vertical-align: baseline;
 }
