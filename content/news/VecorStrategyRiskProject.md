@@ -3,7 +3,7 @@ title: "Vecor Strategy & Risk Project"
 date: 2017-09-12T10:30:45+01:00
 draft: false
 excludeFromSiteMap: true
-image: "project.png"
+image: "/images/project.png"
 image1: 
 image1Caption: 
 image2: 

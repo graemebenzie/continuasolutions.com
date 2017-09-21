@@ -29,7 +29,7 @@
                 {{ range .Data.Pages.ByParam "order" }}
                   <div class="portfolio-items-single col-lg-6 col-md-6 col-sm-6 col-xs-6 w100 hidden-item">
                       <a class="portfolio-items-single-url" href="{{.Permalink}}" title="{{ .Title }}">
-                      <img src="/images/{{ .Params.image }}" class="attachment-full" alt="folio7" />
+                      <img src="{{ .Params.image }}" class="attachment-full" alt="folio7" />
                       <div class="portfolio-items-single-overlay-details">
                       <div class="portfolio-items-single-overlay-details-inside-wrapper">
                       <div class="portfolio-items-single-overlay-details-inside">
