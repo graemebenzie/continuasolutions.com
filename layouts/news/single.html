@@ -21,7 +21,7 @@
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w100">
             <figure>             
                 {{ with .Params.Image1 }}   
-                    <img src="/{{ . }}">
+                    <img src="{{ . }}">
                 {{end}}
                 {{ with .Params.Image1Caption }}   
                     <figcaption>
@@ -31,7 +31,7 @@
             </figure><br>
             <figure>             
                 {{ with .Params.Image2 }}   
-                    <img src="/{{ . }}">
+                    <img src="{{ . }}">
                 {{end}}
                 {{ with .Params.Image2Caption }}   
                     <figcaption>
@@ -41,7 +41,7 @@
             </figure><br>
             <figure>             
                     {{ with .Params.Image3 }}   
-                        <img src="/{{ . }}">
+                        <img src="{{ . }}">
                     {{end}}
                     {{ with .Params.Image3Caption }}   
                         <figcaption>
