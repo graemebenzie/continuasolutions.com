@@ -1,13 +1,14 @@
 ---
-title: "Vecor Strategy & Risk Project"
-date: 2017-09-12T10:30:45+01:00
+date: 2017-09-12T09:30:45.000Z
 draft: false
 excludeFromSiteMap: true
-image: "/images/project.png"
-image1: 
-image1Caption: 
-image2: 
-image2Caption: 
-image3: 
-image3Caption:
+image1: null
+image1Caption: null
+image2: null
+image2Caption: null
+image3: null
+image3Caption: null
+title: Vecor Strategy & Risk Project
+image: /images/brio4-2017-0284.jpg
 ---
+Vecor News
