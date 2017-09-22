@@ -1,5 +1,5 @@
 ---
-title: Test
+title: Testing
 date: 2017-09-21T14:30:59.279Z
 draft: false
 image: /images/slider1.jpg
@@ -11,6 +11,7 @@ image3: null
 image3caption: null
 ---
 Test news
+
 
 
 
