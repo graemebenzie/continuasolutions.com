@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: graemebenzie/continuasolutions.com # Path to your Github repository
+  repo: DACGitHub/continuasolutions.com # Path to your Github repository
   branch: release # Branch to update
 media_folder: "static/images"
 public_folder: "/images"
