@@ -2,10 +2,10 @@
     <ul class="banner_slider">
         {{ $slides := where .Data.Pages "Section" "slider" }}
         {{ range ($slides.ByParam "order") }}
-        <li><img src="images/{{ .Params.Image }}" alt="banner" />
+        <li><img src="{{ .Params.Image }}" alt="banner" />
             <div class="text-banner">
             {{ with .Params.logo }}
-                <img class="slider-logo" src="images/{{ . }}"/>
+                <img class="slider-logo" src="{{ . }}"/>
             {{ end }}                
             <h2 class="roboto">
                 <!--<img class="banner-logo" src="images/continua-white.svg" alt="" />--></img>
@@ -21,7 +21,7 @@
 
     <div id="bx-pager">
         {{ range $index, $item := ($slides.ByParam "order") }}
-          <a data-slide-index="{{ $index }}" href=""><img src="images/{{ $item.Params.thumbnail }}" alt="banner-thumb" /></a>
+          <a data-slide-index="{{ $index }}" href=""><img src="{{ $item.Params.thumbnail }}" alt="banner-thumb" /></a>
         {{ end }}
         <!--
         <a data-slide-index="0" href=""><img src="images/continua.png" alt="banner-thumb" /></a>

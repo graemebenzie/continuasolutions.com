@@ -5,7 +5,7 @@ draft: false
 excludeFromSiteMap: true
 heading: C<img class="text-symbol" src="/images/continua-symbol.svg" />ntinua
 subheading: ' '
-image: continua.jpg
-thumbnail: continua.png
+image: /images/continua.jpg
+thumbnail: /images/continua.png
 ---
 

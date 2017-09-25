@@ -3,7 +3,7 @@ backend:
   repo: DACGitHub/continuasolutions.com # Path to your Github repository
   branch: release # Branch to update
 media_folder: "static/images"
-public_folder: "/images"
+public_folder: "/images/"
 site_id: www.continuasolutions.com
 collections:
   - name: "slider" # Used in routes, e.g., /admin/collections/blog
