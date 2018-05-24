@@ -1,7 +1,6 @@
 ---
-status: Owner
 title: "Lynneramsey"
-date: 2017-08-25T09:14:21+01:00
+date: 2017-04-25T09:14:21+01:00
 draft: false
 name: Lynne Ramsey
 degreeletters: ", BA (Hons), MSc"

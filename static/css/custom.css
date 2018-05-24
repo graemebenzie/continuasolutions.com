@@ -767,6 +767,12 @@ header {
     padding-top: 7px;
 }
 
+.click-for-full-profile{
+	position: absolute;
+	bottom: 1em;
+	color: #ab8ac0;
+}
+
 /*==============================*/
 /* 	  month section styles here	*/
 /*==============================*/
@@ -2396,7 +2402,7 @@ li img.banner-logo{
 
 @media screen and ( max-width: 767px ){
 	.social-media-wrap{
-		width:240px;
+		width:192px;
 		margin:0 auto;
 	}
 

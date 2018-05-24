@@ -21,7 +21,7 @@
               <img src="/images/{{ .Params.image }}" alt="{{ .Params.name }} " />
               {{ if isset .Params "linkedinpage" }}
                 <a class="portrait-linkedin" href="{{ .Params.linkedinpage }}">
-                  <img src="/images/linkedin.png" alt="Lynne Ramsey Linkedin" />
+                  <img src="/images/linkedin.png" alt="{{ .Params.name }} Linkedin" />
                 </a>
               {{ end }}
               </div>
