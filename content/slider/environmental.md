@@ -5,7 +5,7 @@ draft: false
 excludeFromSiteMap: true
 heading: Simple Scalable Solutions
 subheading: ' '
-image: rig.jpg
-thumbnail: rig.png
+image: /images/rig.jpg
+thumbnail: /images/rig.png
 ---
 

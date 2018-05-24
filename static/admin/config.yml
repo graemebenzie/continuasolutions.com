@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: graemebenzie/continuasolutions.com # Path to your Github repository
+  repo: DACGitHub/continuasolutions.com # Path to your Github repository
   branch: release # Branch to update
 media_folder: "static/images"
-public_folder: "/images"
-site_id: continuasolutions.netlify.com
+public_folder: "/images/"
+site_id: www.continuasolutions.com
 collections:
   - name: "slider" # Used in routes, e.g., /admin/collections/blog
     label: "Slider" # Used in the UI
@@ -12,11 +12,11 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter 
+      - {label: "Title ( not used )", name: "title", widget: "string"}
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Exclude from Sitemap", name: "excludeFromSiteMap", widget: "hidden", default: true} 
-      - {label: "Logo", name: "logo", widget: "image", required: false}
       - {label: "Heading", name: "heading", widget: "string", required: false}
       - {label: "Sub Heading", name: "subheading", widget: "string", required: false}
       - {label: "Image", name: "image", widget: "image"}
