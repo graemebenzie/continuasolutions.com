@@ -9,7 +9,7 @@ image: lynneramsey.jpg
 thumbnail: lynneramsey-thumb.jpg
 blurb: >-
   Lynne is a QHSE professional with over 15 years of energy sector experience
-  with major operators and their supply chain
+  with major operators and their supply chain.
 ---
 ## Biography
 
