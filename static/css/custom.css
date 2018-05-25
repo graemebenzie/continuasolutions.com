@@ -2168,6 +2168,10 @@ input.highlight-error, textarea.highlight-error{
 	margin-bottom:1em;
 }
 
+.consultant-content a{
+	color: #337ab7;
+}
+
 .portrait-linkedin{
 	position:absolute;
 	right:4px;
