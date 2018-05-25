@@ -6,7 +6,9 @@ name: Jenna McGuinness
 jobtitle: Environmental Consultant
 image: "jennamcguinness.jpg"
 thumbnail: "jennamcguinness.jpg"
+degreeletters: "BSc"
 blurb: Marine and environmental biologist specializing in the complexities and interactions between onshore and offshore ecosystems.
+linkedinpage: https://www.linkedin.com/in/jenna-mcguinness-b610b72b/
 ---
 
 ## Biography

@@ -6,7 +6,9 @@ name: Nigel Blake
 jobtitle: Principal Environmental, Safety and Risk Engineer
 image: "nigelblake.jpg"
 thumbnail: "nigelblake.jpg"
+degreeletters: "BEng, PhD"
 blurb: Chartered chemical engineer with over 30 years’ experience in a variety of industries, majoring in oil & gas.
+linkedinpage: https://www.linkedin.com/in/nigel-blake-5203304a/
 ---
 
 ## Biography

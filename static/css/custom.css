@@ -1730,7 +1730,7 @@ footer .center p {
 /* 	  Portfolio mansory and Grid section  styles here	*/
 /*==============================================*/
 
-.portfolio-mansory . .portfolio-grid {
+.portfolio-mansory .portfolio-grid {
     float: left;
     width: 100%;
 }
@@ -1756,7 +1756,7 @@ footer { background-size:287px 316px !important; }
 footer { background-size:437px 324px !important; }
 	}
 @media (min-width:1981px){
-.need-for-orange { background-size:28.5% 297px !important!important }	
+.need-for-orange { background-size:28.5% 297px !important}	
 footer { background-size:437px 324px !important; }
 	}				
 @media (min-width:1400px){
@@ -2192,11 +2192,11 @@ input.highlight-error, textarea.highlight-error{
 		width:100%;
 	}
 
-	.portrait-linkedin{
+	/*.portrait-linkedin{
 		right: initial;
 		left: 4px;
 		bottom:12px;
-	}
+	}*/
 }
 
 .service-section{
@@ -2367,6 +2367,7 @@ li img.banner-logo{
 
 .portrait-photo-wrap{
 	position:relative;
+	display: inline-block;
 }
 
 .testimonial p{

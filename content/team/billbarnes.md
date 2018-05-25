@@ -3,18 +3,18 @@ title: "billbarnes"
 date: 2017-05-24T16:12:52+01:00
 draft: false
 name: "Bill Barnes"
-degreeletters: ""
+degreeletters: "BEng, MSc, PE, CPEA"
 jobtitle: "Principal Management Systems Consultant"
 image: "billbarnes-full.jpg"
 thumbnail: "billbarnes.jpg"
-blurb: "Certified professional engineer and auditor with over 25 years’ experience."
+blurb: "Certified professional engineer and auditor with over 25 years’ experience specializing in process safety and risk management across a wide variety of industrial operations."
 linkedinpage: https://www.linkedin.com/in/bill-barnes-ab28a614/
 ---
 
 ## Biography
 
 <p>
-    President of Compliance Design LLC <http://www.compliance-design.com>) Bill specializes in assessing environmental, health, safety and operational risks to align people, processes and technology to reduce unplanned losses.
+    President of <a href="http://www.compliance-design.com">Compliance Design LLC</a> Bill specializes in assessing environmental, health, safety and operational risks to align people, processes and technology to reduce unplanned losses.
 </p>
 <p>
     Over twenty five years experience managing industrial operations, projects and personnel, solving problems to reduce waste and continually improve a wide variety of industrial processes.

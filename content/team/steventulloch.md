@@ -6,7 +6,9 @@ name: Steven Tulloch
 jobtitle: Process Engineer / Environmental Consultant
 image: "StevenTulloch.jpg"
 thumbnail: "StevenTulloch.jpg"
+degreeletters: "BSc, CEng"
 blurb: Chartered process engineer with over 25 years’ experience in the field of environmental and process engineering.
+linkedinpage: https://www.linkedin.com/in/steven-tulloch-8a19ba14/
 ---
 
 ## Biography

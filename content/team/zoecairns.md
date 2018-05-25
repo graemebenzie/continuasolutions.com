@@ -6,7 +6,9 @@ name: Zoë Cairns
 jobtitle: Principal Environmental Consultant
 image: "zoecairns.jpg"
 thumbnail: "zoecairns.jpg"
+degreeletters: "BSc (Hons), MSc"
 blurb: Senior environmentalist with extensive experience supporting energy projects from concept select through to decommissioning.
+linkedinpage: https://www.linkedin.com/in/zoe-cairns-187a1a20/
 ---
 
 ## Biography

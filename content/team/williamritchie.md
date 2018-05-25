@@ -6,21 +6,21 @@ name: William Ritchie
 jobtitle: Environmental Advisor/Reviewer
 image: "williamritchie.jpg"
 thumbnail: "williamritchie.jpg"
+degreeletters: "OBE, BSc, PhD, DUniv, DSc, FRSGS, FRICS, FRS"
 blurb: Coastal environmental scientist and government advisor specializing in oil spill preparedness, monitoring and compliance.
 ---
 
 ## Biography
 
 <p>
-    Professor William Ritchie OBE, B.Sc, Ph.D.(Glasgow), D.Univ. (Stirling),
-    D.Sc. (Lancaster) ,FRSGS, FRICS, FRS(Edinburgh) has had a long
-    academic career, including research positions within the years 1979-
-    1989, at Louisiana State University and senior professorial and executive
-    positions at both the University of Aberdeen, Scotland and Lancaster
-    University in the north of England. He specializes in applied coastal
-    geomorphology and has published over 40 papers relating to the oil and
-    gas industry (predominantly oil spill preparedness, monitoring programs
-    and regulatory compliance).
+    Professor William Ritchie has had a long academic career including 
+    research positions within the years 1979-1989, at Louisiana State 
+    University and senior professorial and executive positions at both the
+    University of Aberdeen, Scotland and Lancaster University in the north 
+    of England. He specializes in applied coastal geomorphology and has 
+    published over 40 papers relating to the oil and gas industry 
+    (predominantly oil spill preparedness, monitoring programs and regulatory
+     compliance).
 </p>
 <p>
     He was appointed in 1993 by UK Secretary of State to chair the Steering

@@ -4,18 +4,17 @@ date: 2017-04-25T09:14:21+01:00
 draft: false
 name: Lynne Ramsey
 degreeletters: ", BA (Hons), MSc"
-jobtitle: Owner and Principal QHSE Consultant
+jobtitle: Owner and Principal Management Systems Consultant
 image: "lynneramsey.jpg"
 thumbnail: "lynneramsey-thumb.jpg"
-blurb: Lynne Ramsey, is a QHSE professional with over 10 years of oil and gas experience.
+blurb: Lynne has over 15 years of energy sector experience
 linkedinpage:  https://www.linkedin.com/in/lynneramsey
 ---
 
 ## Biography
 
 <p>
-    Lynne Ramsey, is a QHSE
-    professional with over 10 years of oil and gas experience. Originally from
+    Lynne has over 15 years of energy sector experience. Originally from
     an environmental background (beginning in the UK supporting North Sea
     assets) Lynne has been working in Texas for the last five years with a
     wider client base which includes major oil and gas operators, their subcontractors
@@ -68,3 +67,7 @@ and emergency response assessments.
 * Vendor Assessment
 * ISO Pursuit (Quality and Environment)
 * QHSE Process Improvement and Assessment
+
+## Education
+*	BA (Hons), Human Geography, Edgehill University
+*	MSc, Managing Development, Edgehill University
