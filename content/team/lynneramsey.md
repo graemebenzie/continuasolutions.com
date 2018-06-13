@@ -1,16 +1,16 @@
 ---
-title: "Lynneramsey"
-date: 2017-04-25T09:14:21+01:00
+title: Lynneramsey
+date: 2017-04-25T08:14:21.000Z
 draft: false
 name: Lynne Ramsey
-degreeletters: ", BA (Hons), MSc"
+degreeletters: ', BA (Hons), MSc'
 jobtitle: Owner and Principal Management Systems Consultant
-image: "lynneramsey.jpg"
-thumbnail: "lynneramsey-thumb.jpg"
-blurb: Lynne has over 15 years of energy sector experience
-linkedinpage:  https://www.linkedin.com/in/lynneramsey
+image: lynneramsey.jpg
+thumbnail: lynneramsey-thumb.jpg
+blurb: >-
+  Lynne is a QHSE professional with over 15 years of energy sector experience
+  with major operators and their supply chain.
 ---
-
 ## Biography
 
 <p>
@@ -33,25 +33,25 @@ linkedinpage:  https://www.linkedin.com/in/lynneramsey
 ## Career Highlights
 
 * Offshore experience (inc. pre-regulatory inspection, audit, investigation
-and HSE rep) on multiple offshore vessels and installations such as BP
-Foinaven FPSO, BP Clair, BP Magnus and BP Bruce platforms, Teekay/
-Bluewater Aoko Mizu FPSO, ENSCO 100 drill rig, SEDCO 740 drill rig,
-Talisman Clyde platform, Premier Balmoral FVP and the Nexen Scott and
-Buzzard platforms.
+  and HSE rep) on multiple offshore vessels and installations such as BP
+  Foinaven FPSO, BP Clair, BP Magnus and BP Bruce platforms, Teekay/
+  Bluewater Aoko Mizu FPSO, ENSCO 100 drill rig, SEDCO 740 drill rig,
+  Talisman Clyde platform, Premier Balmoral FVP and the Nexen Scott and
+  Buzzard platforms.
 * Multiple full-time secondments including BP (Environmental Advisor
-- Magnus, Clair and Bruce), Nexen (Environmental Advisor), Talisman
-(Environmental Advisor – Wells Team) and Premier (Environmental
-Support – Drilling) and Lead Environmental Engineer for the Chevron
-Rosebank FEED project (deep water FPSO).
+* Magnus, Clair and Bruce), Nexen (Environmental Advisor), Talisman
+  (Environmental Advisor – Wells Team) and Premier (Environmental
+  Support – Drilling) and Lead Environmental Engineer for the Chevron
+  Rosebank FEED project (deep water FPSO).
 * Wide range of audit experience including major operators (at both office
-and asset locations) and their vendors (such as oil field equipment
-providers, catering companies, ROV operators and waste handlers) and
-onshore pipelines.
+  and asset locations) and their vendors (such as oil field equipment
+  providers, catering companies, ROV operators and waste handlers) and
+  onshore pipelines.
 * Sub-contractor to leading Certification Body (ISO 14001 - Environment).
 * In depth working knowledge of permits, consents, environmental data
-reporting, regulatory frameworks, identification of environmentally
-critical equipment, emissions and discharge monitoring, spill prevention
-and emergency response assessments.
+  reporting, regulatory frameworks, identification of environmentally
+  critical equipment, emissions and discharge monitoring, spill prevention
+  and emergency response assessments.
 
 <split>
 
@@ -69,5 +69,6 @@ and emergency response assessments.
 * QHSE Process Improvement and Assessment
 
 ## Education
-*	BA (Hons), Human Geography, Edgehill University
-*	MSc, Managing Development, Edgehill University
+
+* BA (Hons), Human Geography, Edgehill University
+* MSc, Managing Development, Edgehill University
