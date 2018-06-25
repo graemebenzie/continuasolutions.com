@@ -2453,3 +2453,7 @@ li img.banner-logo{
 	width: 0.96em;
 	vertical-align: baseline;
 }
+
+.centered{
+	text-align: center;
+}

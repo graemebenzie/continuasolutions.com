@@ -17,7 +17,7 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
+              <ul class="nav navbar-nav">                 
                 {{ if eq .page "home" }}                  
                   <li class="active"><a href="/">Home</a></li>
                 {{ else }}
@@ -34,13 +34,19 @@
                   <li class="active"><a href="/team/">Team</a></li>
                 {{ else }}
                   <li><a href="/team/">Team</a></li>
-                {{ end }}                                   
+                {{ end }}  
+                
+                {{ if eq .page "certification" }}                  
+                  <li class="active"><a href="/certification/">Certification</a></li>
+                {{ else }}
+                  <li><a href="/certification/">Certification</a></li>
+                {{ end }}                  
 
                 {{ if eq .page "contact" }}
                   <li class="active"><a href="/contact/" class="contact">Contact</a></li>
                 {{ else }}
                   <li><a href="/contact/" class="contact">Contact</a></li>
-                {{ end }}                
+                {{ end }}  
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
