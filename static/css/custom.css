@@ -2457,3 +2457,9 @@ li img.banner-logo{
 .centered{
 	text-align: center;
 }
+
+@media  ( max-width: 768px){
+	.centered-on-mobile{	
+		text-align: center;
+	}
+}
