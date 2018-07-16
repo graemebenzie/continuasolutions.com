@@ -3,6 +3,8 @@ title: 'ISO 9001:2015 Certification Celebration'
 date: '2018-07-16T09:09:23+01:00'
 draft: false
 image: /images/certification-featured.jpg
+image1: /images/certification-featured.jpg
+image1caption: 'ISO 9001:2015'
 ---
 Continua Solutions offers simple, scalable solutions to its clients.  What better way to demonstrate that than to put my money were my mouth is and build a fit-for-purpose ISO 9001 management system for my own company?
 
