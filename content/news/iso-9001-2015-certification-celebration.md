@@ -3,8 +3,10 @@ title: 'ISO 9001:2015 Certification Celebration'
 date: '2018-07-16T09:09:23+01:00'
 draft: false
 image: /images/certificationcelebration_6589.jpg
-image1: /images/certification-featured.jpg
+image1: /images/certificationcelebration_6589.jpg
 image1caption: ''
+image2: /images/certificationcelebration__6596.jpg
+image3: /images/certificationcelebration_6725.jpg
 ---
 Continua Solutions offers simple, scalable solutions to its clients.  What better way to demonstrate that than to put my money were my mouth is and build a fit-for-purpose ISO 9001 management system for my own company?
 
@@ -23,10 +25,6 @@ The certification process has been an invaluable experience for me and for my co
 [Visit our ISO 9001:2015 certification page](https://www.continuasolutions.com/iso-9001/)
 
 ![ISO 9001:2015 Certification](/images/certification-featured.jpg)
-
-![Certification celebration](/images/certificationcelebration__6596.jpg)
-
-![Certification celebration](/images/certificationcelebration_6725.jpg)
 
 ![Certification celebration](/images/certificationcelebration__6172.jpg)
 
