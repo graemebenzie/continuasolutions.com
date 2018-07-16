@@ -6,7 +6,7 @@ image: /images/certification-featured.jpg
 ---
 Continua Solutions offers simple, scalable solutions to its clients.  What better way to demonstrate that than to put my money were my mouth is and build a fit-for-purpose ISO 9001 management system for my own company?
 
-> “I decided early on in the life of the company that the best way to understand my clients perspective on management systems would be to take a walk in their shoes.  For that reason I decided to build an ISO9001:2015 management system for my own company following the same methodology which I offer to my clients.”  
+<p class="letter-style">“I decided early on in the life of the company that the best way to understand my clients perspective on management systems would be to take a walk in their shoes.  For that reason I decided to build an ISO9001:2015 management system for my own company following the same methodology which I offer to my clients.”</p>
 
 
 **And in June 2018 I achieved that objective when DNV certified Continua Solutions to ISO 9001:2015.**
