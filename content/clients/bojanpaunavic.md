@@ -11,7 +11,7 @@ excludeFromSiteMap: true
 “I had the pleasure of working with Lynne Ramsey on the Chevron Rosebank Project from 2012 until 2014.
 During this period Lynne was responsible for, amongst other duties, collating the technical data for the Projects
 Environmental Statement. This required extensive input from various Company groups in order to satisfy UK
-legislation, international regulations and industry standards..
+legislation, international regulations and industry standards.
 
 This challenging and complex effort helped lead to the successful submittal and approval by UK government,
 enabling Chevron's strategic development to proceed. In addition to her wide environmental experience Lynne
