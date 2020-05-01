@@ -832,7 +832,7 @@ header {
 footer {
 	width:100%;
 	float:left;
-	background: url(../images/icons/orange-triangle.png) left bottom no-repeat , url(../images/icons/blue-triangle.png) right bottom no-repeat;
+/* 	background: url(../images/icons/orange-triangle.png) left bottom no-repeat , url(../images/icons/blue-triangle.png) right bottom no-repeat; */
 	background-size:126px 134px;
 }
 /* .need-for-orange {
