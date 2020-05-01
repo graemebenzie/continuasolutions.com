@@ -1853,7 +1853,7 @@ footer { background-size:197px 197px; }
 	
 @media (max-width:800px){
 	.text-banner {top:20%;}
-.text-banner h2 { font-size:30px;}
+.text-banner h2 { font-size:22px;}
 footer {background-size:75px 62px;}
 .need-for-orange { background-size:25px 33px; }
 	} /* End query */
