@@ -31,6 +31,7 @@
 
 
 
+
 .loading-overlay {
 	position: fixed;
 	left: 0px;
@@ -116,6 +117,9 @@ h1 {
     font-size: 36px;
     font-weight: 800;
 }
+
+
+
 h2{
 	margin-bottom:1em;
 }
@@ -2462,5 +2466,75 @@ li img.banner-logo{
 @media  ( max-width: 768px){
 	.centered-on-mobile{	
 		text-align: center;
+	}
+}
+
+
+
+
+.bg-blue {
+	background-color: #346DB6;
+	color: #fff!important;
+
+}
+
+.bg-lightblue {
+	background-color: #EAF0F8;
+	padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.bg-white {
+		padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.home-banner {
+	padding-top: 250px;
+    padding-bottom: 100px;
+    display: block;
+}
+
+h1.homeh {
+	text-transform: none!important;
+	color: #fff!important;
+	line-height: 3.25rem;
+	font-weight: normal;
+	font-family: 'Roboto Slab', serif!important;
+}
+
+h2.homeh {
+		text-transform: none!important;
+	line-height: 2.25rem;
+	font-size: 27px!important;
+	font-weight: normal;
+	font-family: 'Roboto Slab', serif!important;
+}
+
+.clients-logos img {
+	padding:20px;
+}
+
+@media  ( max-width: 768px){
+	.home-banner {
+	padding-top: 105px;
+    padding-bottom: 50px;
+	}
+	
+	h1.homeh {
+	font-size: 23px!important;
+	line-height: 2.2rem;
+	text-align: center;
+	margin-bottom: 40px;
+	}
+	
+	h2.homeh {
+		font-size: 20px!important;
+		line-height: 1.9rem;	
+	}
+	
+	.bg-white {
+		padding-top:75px;
+		padding-bottom: 75px;
 	}
 }
