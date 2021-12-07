@@ -862,6 +862,9 @@ footer {
     text-transform: capitalize;
 
 }
+.menu-footer {
+	padding-left: 0px;
+}
 .menu-footer li , .menu-footer label {
 	list-style:none;
 	line-height:30px;
@@ -2412,7 +2415,7 @@ li img.banner-logo{
 
 @media screen and ( max-width: 767px ){
 	.social-media-wrap{
-		width:192px;
+		width:fit-content;
 		margin:0 auto;
 	}
 
