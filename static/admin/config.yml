@@ -57,6 +57,8 @@ collections:
   #     - {label: "Image 3 Caption", name: "image3caption", widget: "string", required: false}
   #     - {label: "Body", name: "body", widget: "markdown"}
   - name: "collaborations" # Used in routes, e.g., /admin/collections/blog
+    editor:
+      preview: false
     label: "Collaborations" # Used in the UI
     folder: "content/collaborations" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -83,6 +85,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Feedback", name: "feedback", widget: "markdown"}
   - name: "clients" # Used in routes, e.g., /admin/collections/blog
+    editor:
+      preview: false
     label: "Clients" # Used in the UI
     folder: "content/clients" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
