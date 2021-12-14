@@ -37,23 +37,49 @@ collections:
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
       - {label: "Blurb", name: "blurb", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}  
-  - name: "news" # Used in routes, e.g., /admin/collections/blog
-    label: "News" # Used in the UI
-    folder: "content/news" # The path to the folder where the documents are stored
+  # - name: "news" # Used in routes, e.g., /admin/collections/blog
+  #   label: "News" # Used in the UI
+  #   folder: "content/news" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   fields: # The fields for each document, usually in front matter      
+  #     - {label: "Title", name: "title", widget: "string", required: false}
+  #     - {label: "Publish Date", name: "date", widget: "datetime"}
+  #     - {label: "Draft", name: "draft", widget: "boolean", default: false}
+  #     - {label: "Featured Image", name: "image", widget: "image", required: false}
+  #     - {label: "Image 1", name: "image1", widget: "image", required: false}
+  #     - {label: "Image 1 Caption", name: "image1caption", widget: "string", required: false}
+  #     - {label: "Image 2", name: "image2", widget: "image", required: false}
+  #     - {label: "Image 2 Caption", name: "image2caption", widget: "string", required: false}
+  #     - {label: "Image 3", name: "image3", widget: "image", required: false}
+  #     - {label: "Image 3 Caption", name: "image3caption", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "collaborations" # Used in routes, e.g., /admin/collections/blog
+    label: "Collaborations" # Used in the UI
+    folder: "content/collaborations" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter      
       - {label: "Title", name: "title", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - {label: "Image 1", name: "image1", widget: "image", required: false}
-      - {label: "Image 1 Caption", name: "image1caption", widget: "string", required: false}
-      - {label: "Image 2", name: "image2", widget: "image", required: false}
-      - {label: "Image 2 Caption", name: "image2caption", widget: "string", required: false}
-      - {label: "Image 3", name: "image3", widget: "image", required: false}
-      - {label: "Image 3 Caption", name: "image3caption", widget: "string", required: false}
+      - label: "Company Logo"
+        name: "companyLogo"
+        widget: "object"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Alt Text", name: "alt", widget: "image"}
+          - {label: "Caption", name: "caption", widget: "string"}
+      - label: "Images"
+        name: "images"
+        minimize_collapsed: true
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Alt Text", name: "alt", widget: "image"}
+          - {label: "Caption", name: "caption", widget: "string" }
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Feedback", name: "feedback", widget: "markdown"}
   - name: "clients" # Used in routes, e.g., /admin/collections/blog
     label: "Clients" # Used in the UI
     folder: "content/clients" # The path to the folder where the documents are stored
