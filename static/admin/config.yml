@@ -55,7 +55,7 @@ collections:
   #     - {label: "Image 2 Caption", name: "image2caption", widget: "string", required: false}
   #     - {label: "Image 3", name: "image3", widget: "image", required: false}
   #     - {label: "Image 3 Caption", name: "image3caption", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "Body", name: "body", widget: "markdown"}
   - name: "collaborations" # Used in routes, e.g., /admin/collections/blog
     label: "Collaborations" # Used in the UI
     folder: "content/collaborations" # The path to the folder where the documents are stored
