@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: DACGitHub/continuasolutions.com # Path to your Github repository
-  branch: release # Branch to update
+  branch: collaborations # Branch to update
 media_folder: "static/images"
 public_folder: "/images/"
 site_id: www.continuasolutions.com
@@ -65,9 +65,21 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter      
       - {label: "Title", name: "title", widget: "string", required: false}
-      - {label: "Company Name", name: "company", widget: "string", required: false}
+      - label: "Company"
+        name: "company"
+        widget: "object"
+        fields:
+          - {label: "Company Name", name: "company", widget: "string", required: false}
+          - {label: "Company Name", name: "company", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - label: "Featured Image"
+        name: "image"
+        widget: "object"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Alt Text", name: "alt", widget: "image"}
+          - {label: "Caption", name: "caption", widget: "string"}
       - label: "Company Logo"
         name: "companyLogo"
         widget: "object"
