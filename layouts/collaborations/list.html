@@ -4,17 +4,49 @@
         {{ partial "topbar.html" . }}
         {{ partial "navigation.html" (dict "page" "collaborations" ) }}
     </header>
-    <div class="inner-banner">
-        <img src="/images/news.jpg" alt="team">
-    </div> 
+
+    <div class="bg-purple text-white pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 w100">                        
+                    <div class=" text-style">
+                       <div class="row">
+
+                            <div class="col-lg-7 col-md-9 col-sm-8 col-xs-12">
+                            <h1 class="text-white homeh">I genuinely believe that good, well-planned, management systems make everyone’s job a little easier and the company a whole lot better.</h1>
+
+							<p class="text-white">With that in mind I work with a wide range of clients to develop organizational and operational processes that conform to ISO standards but, crucially, are fit-for-purpose and sustainable.</p>
+ 
+							<p class="text-white"> The strongest systems build, bit by bit, upon established processes and existing good practice. To get the job done right I do my best to really listen to you and your team.  By capturing the organizations knowledge and understanding its challenges I provide meaningful process improvements that will be welcomed at all levels of your company</p>
+							                        
+                                <div>
+                                    <img src="../images/img_lynne_signature.svg" style="width:110px; margin-top: 20px;">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-lg-offset-1 col-md-4 col-sm-4 col-xs-8">
+                                <img src="../images/img_lynne.jpg" style="margin-bottom:15px; box-shadow: 0px 6px 30px rgba(255, 255, 255, 0.2); width: 100%;" alt="meetings">
+                                <span style="display: block;">Lynne Ramsay<br />Principal Consultant</span>
+
+                            </div>
+                            
+                            
+                               
+                            </div>
+                        <!--<img src="images/continua-landscape.svg" class="inline-start-image" alt="meetings">-->
+                    </div>
+                </div>               
+                {{ partial "owner" . }}
+            </div>
+        </div>
+    </div>  
 
 <!-- ============== Start up section ============== -->
-
-<div class="what-we">
+<div class="what-we bg-lightpurple">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-            <h1>Featured News<span class="all-level">Continua Events, Projects, Partnerships and More</span></h1>
+        <div class="col-sm-12 col-md-9 col-lg-7">
+            <h1>Collaborations</h1>
+            <h2>I collaborate with a wide range of clients to develop organizational and operational processes that conform to ISO standards but which are also fit-for-purpose and sustainable within their unique organization.</h2>
          </div><!-- /.col-sm-12 -->
       </div><!-- /.row -->
       </div><!-- /.container -->
@@ -22,24 +54,20 @@
 
 <!-- ============== portfolio mansory section ============== -->
 
-<div class="portfolio-grid">
+<div class="portfolio-grid bg-lightpurple">
     <div class="container">
       <div class="row">
         <div class="portfolio-items-wrapper ">
                 {{ range .Data.Pages.ByParam "order" }}
-                  <div class="portfolio-items-single col-lg-6 col-md-6 col-sm-6 col-xs-6 w100 hidden-item">
-                      <a class="portfolio-items-single-url" href="{{.Permalink}}" title="{{ .Title }}">
-                      <img src="{{ .Params.image }}" class="attachment-full" alt="folio7" />
-                      <div class="portfolio-items-single-overlay-details">
-                      <div class="portfolio-items-single-overlay-details-inside-wrapper">
-                      <div class="portfolio-items-single-overlay-details-inside">
-                      <h1 class="portfolio-items-single-overlay-details-title" >{{ .Title }}</h1>
-                      <i class="fa portfolio-items-single-overlay-details-icon fa-search" ></i>
-                      <div class="clear"></div>
+                  <div class="collab-items-single col-lg-4 col-md-6 col-sm-6 col-xs-12 w100 hidden-item ">
+                      <div class="bg-purple item-container" style="padding-bottom: 30px;">
+                        <a class="portfolio-items-single-url" href="{{.Permalink}}" title="{{ .Title }}">
+                            <img src="{{ .Params.image }}" class="attachment-full" alt="folio7" />
+                            <p class="portfolio-items-single-overlay-details-title text-white">{{ .Title }}</p>
+                        </a>
                       </div>
-                      </div>
-                      </div>
-                      </a>
+                      <img class="collab-arrow" src="../images/icn_collab_arrow.svg"  />
+
                   </div>
               {{ end }}
                    
