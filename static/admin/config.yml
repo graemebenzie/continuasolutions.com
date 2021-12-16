@@ -69,8 +69,8 @@ collections:
         name: "company"
         widget: "object"
         fields:
-          - {label: "Company Name", name: "company", widget: "string", required: false}
-          - {label: "Company Name", name: "company", widget: "string", required: false}
+          - {label: "Company Name", name: "name", widget: "string", required: false}
+          - {label: "Company Location", name: "location", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - label: "Featured Image"
@@ -79,14 +79,12 @@ collections:
         fields:
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Alt Text", name: "alt", widget: "image"}
-          - {label: "Caption", name: "caption", widget: "string"}
       - label: "Company Logo"
         name: "companyLogo"
         widget: "object"
         fields:
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Alt Text", name: "alt", widget: "image"}
-          - {label: "Caption", name: "caption", widget: "string"}
       - label: "Images"
         name: "images"
         minimize_collapsed: true
@@ -94,9 +92,15 @@ collections:
         fields:
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Alt Text", name: "alt", widget: "image"}
-          - {label: "Caption", name: "caption", widget: "string" }
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Feedback", name: "feedback", widget: "markdown"}
+      - label: "Feedback"
+        name: "feedback"
+        widget: "object"
+        fields:
+          - {label: "Feedback", name: "feedback", widget: "markdown"}
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Position", name: "position", widget: "string"}
+
   - name: "clients" # Used in routes, e.g., /admin/collections/blog
     editor:
       preview: false

@@ -6,50 +6,90 @@
   </header>    
   <!-- ============== Start up section ============== -->
 
-<div class="what-we continua-news">
+    <div class="inner-banner large-section-padding continua-news bg-purple">
     <div class="container">
       <div class="row">
-      <div class="col-sm-12 m48">
-            <h1>{{ .Title }}<span class="all-level">{{ .Params.subtitle }}</span></h1>
-        </div><!-- /.col-sm-12 -->
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w100">
-            {{ .Content }}
-          </div><!-- /.col-lg-6 -->
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 w100">
-            <figure>             
-                {{ with .Params.Image1 }}   
-                    <img src="{{ . }}">
-                {{end}}
-                {{ with .Params.Image1Caption }}   
-                    <figcaption>
-                        <h4>{{ . }}</h4>                    
-                    </figcaption>    
-                {{end}}                            
-            </figure><br>
-            <figure>             
-                {{ with .Params.Image2 }}   
-                    <img src="{{ . }}">
-                {{end}}
-                {{ with .Params.Image2Caption }}   
-                    <figcaption>
-                        <h4>{{ . }}</h4>                    
-                    </figcaption>    
-                {{end}}                            
-            </figure><br>
-            <figure>             
-                    {{ with .Params.Image3 }}   
-                        <img src="{{ . }}">
-                    {{end}}
-                    {{ with .Params.Image3Caption }}   
-                        <figcaption>
-                            <h4>{{ . }}</h4>                    
-                        </figcaption>    
-                    {{end}}                            
-                </figure>                        
-          </div><!-- /.col-lg-6 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 w100">
+            <img src="{{ .Params.companyLogo.image }}" />
+            <hr style="background-color: white; border-color: white;"/>
+            <p class="text-white">{{.Params.company.name }}<br/>
+            {{.Params.company.location }}</p>
+
+        </div>
+      <div class="col-md-6 col-lg-7 col-lg-offset-1 col-sm-12 m48">
+            <h1 class="text-white">{{ .Title }}<span class="all-level">{{ .Params.subtitle }}</span></h1>
+            <div class="text-white">{{ .Content }}</div>
+        </div>
+
+
       </div><!-- /.row -->
       </div><!-- /.container -->
-  </div><!-- /.what-we -->
+    </div>
+
+    <!-- <div class="collab-images what-we">
+        <div id="collab-carousel" class="owl-theme">
+            {{ range .Params.images }}
+                <img class="item" src="{{ .image }}" alt="{{ .alt }}">
+            {{ end }}
+        </div>
+    </div> -->
+
+    <div class="collab-images what-we">
+      <div id="collab-carousel" class="slider glide glide--ltr glide--slider glide--swipeable">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            {{ range .Params.images }}
+            <img class="slide__slide" src="{{ .image }}" alt="{{ .alt }}">
+            {{ end }}
+          </ul>
+        </div>
+        <div data-glide-el="controls" class="carousel-controls">
+          <button data-glide-dir="<" class="carousel-button">
+            <img alt="Prev" src="../../images/icn_collab_arrow.svg"/ style="transform: rotate(180deg);">
+          </button>
+          <button data-glide-dir=">" class="carousel-button">
+            <img alt="Next" src="../../images/icn_collab_arrow.svg"/>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="feedback what-we bg-lightpurple">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 w100">
+              <h3>What {{ .Params.company.name }} had to say</h3>
+          </div>
+        <div class="col-md-6 col-lg-7 col-lg-offset-1 col-sm-12 m48">
+              {{ .Params.feedback.feedback | markdownify }}
+              <br/>
+              <p><b>{{ .Params.feedback.name }}</b></p>
+              <p>{{ .Params.feedback.position}}, {{ .Params.company.name }}</p>
+          </div>
+  
+  
+        </div>
+      </div>
+    </div>
+
+    <!-- ============== collaborations section ============== -->
+
+    <div class="what-we portfolio-grid">
+      <div class="container">
+        <div class="row">
+          <div class="portfolio-items-wrapper ">
+            {{ range first 3 (shuffle (where (where .Site.Pages "Section" "collaborations") ("Title" "!=" .Title) or ("Collaborations" "!=" .Title) )) }}
+              {{ partial "collab-item.html" . }}
+            {{ end }}
+            </div><!-- /.portfolio-items-wrapper -->
+        </div><!-- /.row -->
+        <div class="call-to-action">
+          <a class="text-white more-button" href="/collaborations">View all collaborations</a>
+        </div>        </div><!-- /.container -->
+    </div><!-- /.portfolio-mansory -->
+
+
 
   {{ partial "footer.html" . }}
 </div>

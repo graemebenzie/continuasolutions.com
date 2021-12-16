@@ -1,26 +1,36 @@
 ---
-title: September 17 Happy Hour
-date: '2017-09-01T09:44:58+01:00'
+title: 'Collab example 3'
+date: '2021-12-15T14:15:51+00:00'
 draft: false
-image: /images/dsc_6059-2-.jpg
-image1: /images/dsc_6001-2-.jpg
-image2: /images/dsc_6016-2-.jpg
-image3: /images/dsc_6061.jpg
+company:
+  name: 'Vecor Pipeline Integrity'
+  location: 'Sugar Land, Texas'
+companyLogo:
+  image: /images/img_vecor.svg
+featuredImage:
+  image: /images/vecor1.jpg
+images:
+  - image: /images/vecor1.jpg
+  - image: /images/vecor2.jpg
+  - image: /images/vecor1.jpg
+  - image: /images/vecor2.jpg
+  - image: /images/vecor1.jpg
+  - image: /images/vecor2.jpg
+feedback:
+  feedback: >-
+    “Here is where the lovely testimonial would go saying lots of nice things.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”
+  name: 'Name Name'
+  position: 'Position'
 ---
-September 17 Happy Hour
+Requested by Vecor Pipeline Integrity to plan, facilitate and write-up a series of on-site workshops designed to help Senior Management identify their annual Strategic Objectives.   
 
-![](/images/dsc_6068-2-.jpg)
 
-![](/images/dsc_6084-2-.jpg)
 
-![](/images/dsc_6101-2-.jpg)
+The project will commence with a worksite engagement workshop (SWOT and Stakeholder Assessment) and then a Senior Management workshop (PESTEL, SWOT and Stakeholder Assessment).  A second day has been scheduled to allow Senior Management to draft a Company Vision and to risk assess company issues in relation to that Vision.  
 
-![](/images/dsc_6106-2-.jpg)
 
-![](/images/dsc_6110-2-.jpg)
 
-![](/images/dsc_6116-2-.jpg)
-
-![](/images/dsc_6107.jpg)
-
-![](/images/dsc_6060-2-.jpg)
+The resulting workshop report will present potential Strategic Objectives for the company (as per the output of the combined workshops.  The report will also list areas of highest risk within the business (in terms of impact upon the proposed Strategic Objectives).

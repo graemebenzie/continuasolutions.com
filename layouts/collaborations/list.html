@@ -5,7 +5,7 @@
         {{ partial "navigation.html" (dict "page" "collaborations" ) }}
     </header>
 
-    <div class="bg-purple text-white pb-4">
+    <div class="inner-banner large-section-padding bg-purple text-white pb-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 w100">                        
@@ -59,18 +59,8 @@
       <div class="row">
         <div class="portfolio-items-wrapper ">
                 {{ range .Data.Pages.ByParam "order" }}
-                  <div class="collab-items-single col-lg-4 col-md-6 col-sm-6 col-xs-12 w100 hidden-item ">
-                      <div class="bg-purple item-container" style="padding-bottom: 30px;">
-                        <a class="portfolio-items-single-url" href="{{.Permalink}}" title="{{ .Title }}">
-                            <img src="{{ .Params.image }}" class="attachment-full" alt="folio7" />
-                            <p class="portfolio-items-single-overlay-details-title text-white">{{ .Title }}</p>
-                        </a>
-                      </div>
-                      <img class="collab-arrow" src="../images/icn_collab_arrow.svg"  />
-
-                  </div>
+                    {{ partial "collab-item.html" . }}
               {{ end }}
-                   
           </div><!-- /.portfolio-items-wrapper -->
       </div><!-- /.row -->
       </div><!-- /.container -->

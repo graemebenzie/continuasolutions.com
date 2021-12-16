@@ -2574,3 +2574,60 @@ h2.homeh {
 	transform: translateX(5px);
 	transition: transform 0.5s;
 }
+
+.carousel-button {
+	background: none;
+	border: none;
+}
+
+.carousel-controls {
+	width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collab-item-info {
+	padding: 20px;
+}
+
+.section-padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.large-section-padding {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#process {
+	width: 100%;
+	min-height: 25vh;
+	object-fit: cover;
+	margin-bottom: 50px;
+}
+
+.process-heading {
+	margin-bottom: 50px;
+}
+
+.tick-list {
+	list-style: none;
+	padding-left: 0px;
+	line-height: 2;
+}
+
+.tick-list li:before {
+	content: '';
+	background: url(../images/icn_tick.svg);
+	background-size: cover;
+	background-position: center;
+	margin-right: 10px;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+}
+
+.tick-list li {
+	padding-left: 0px;
+}

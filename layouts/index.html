@@ -9,14 +9,19 @@
     <!-- ============== Banner section ============== -->
     
     <div class="home-banner bg-blue">
-	    <div class="container">
-		    <div class="col-lg-7">
-		    	<h1 class="homeh">Continua is a small and friendly consultancy specializing in the development of ISO Certified Management Systems</h1>
-		    </div>
-		    <div class="col-lg-5 justify-center text-center">
-	            <img src="images/continua-full-white.svg">
-		    </div>
+	    <div class="container-fluid" style="padding-left: 0px; padding-right: 0px">
+				<div class="col-lg-12" style="padding-left: 0px; padding-right: 0px">
+					<img id="process" src="images/img_process.svg">
+				</div>
+
 	    </div>
+			<div class="container process-heading">
+				<div class="col-lg-10 col-12 col-lg-offset-1">
+					<div class="col-lg-12">
+						<h1 class="homeh text-center">Continua is a small and friendly consultancy specializing in the development of ISO Certified Management Systems</h1>
+					</div>
+				</div>
+			</div>
     </div>
     
     
@@ -54,20 +59,6 @@
 		
 	</div>
 
-    
-    <div class="bg-lightblue">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center" style="margin-top: 30px;">
-					<img src="images/stick4.svg">
-
-				</div>
-		   
-			</div>
-			
-		</div>
-		
-	</div>  
 	
 	<div class="bg-blue" style="padding-top: 15px; padding-bottom: 15px; text-align: center;">
 	<span style="display:inline-block; margin-right:30px;">Quality 9001</span><span style="display:inline-block; margin-right:30px; margin-left:30px;">Safety 45001</span><span style="display:inline-block; margin-left:30px;">Environment 14001</span>
@@ -79,7 +70,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<img src="images/achieving-perfection.png" style="margin-bottom: 20px;">
-					<ul>
+					<ul class="tick-list" role="list">
 						<li>Readiness Reviews and Gap Assessments</li>
 						<li>Stakeholder Assessments</li>
 						<li>Strategy and Risk Workshops</li>
@@ -89,7 +80,7 @@
 				</div>
 				<div class="col-lg-6">
 					<img src="images/improving-performance.png" style="margin-bottom: 35px;">
-					<ul>
+					<ul class="tick-list" role="list">
 						<li>Process Metrics and Monitoring Plans</li>
 						<li>Internal Audit Programs</li>
 						<li>Management Review Facilitation</li>
@@ -102,9 +93,37 @@
 			
 		</div>
 		
-	</div>  
+	</div>
+
+	<!-- ============== collaborations section ============== -->
+
+	<div class="bg-white what-we portfolio-grid">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h2 class="homeh">Collaborations</h2>
+					<p>Take a look at some of the projects and events which Continua has collaborated on.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="portfolio-items-wrapper ">
+					{{ range first 3 (where .Site.Pages "Section" "collaborations") }}
+						{{ partial "collab-item.html" . }}
+					{{ end }}
+					</div><!-- /.portfolio-items-wrapper -->
+			</div><!-- /.row -->
+			<div class="call-to-action">
+				<a class="text-white more-button" href="/collaborations">View all collaborations</a>
+			</div>
+
+			</div><!-- /.container -->
+	</div><!-- /.portfolio-mansory -->
 	
-	<div class="bg-blue clients-logos">
+	
+	<div class="bg-blue clients-logos what-we">
 
 		<div class="container">
 			

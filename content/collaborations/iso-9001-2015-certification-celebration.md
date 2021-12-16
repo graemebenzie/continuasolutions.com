@@ -1,33 +1,36 @@
 ---
-title: 'ISO 9001:2015 Certification Celebration'
-date: '2018-07-17T09:09:23+01:00'
+title: 'Collab Example 2'
+date: '2021-12-15T14:15:51+00:00'
 draft: false
-image: /images/certificationcelebration_6589.jpg
-image1: /images/certificationcelebration_6589.jpg
-image1caption: ''
-image2: /images/certificationcelebration__6596.jpg
-image3: /images/certificationcelebration_6725.jpg
+company:
+  name: 'Vecor Pipeline Integrity'
+  location: 'Sugar Land, Texas'
+companyLogo:
+  image: /images/img_vecor.svg
+featuredImage:
+  image: /images/vecor1.jpg
+images:
+  - image: /images/vecor1.jpg
+  - image: /images/vecor2.jpg
+  - image: /images/vecor1.jpg
+  - image: /images/vecor2.jpg
+  - image: /images/vecor1.jpg
+  - image: /images/vecor2.jpg
+feedback:
+  feedback: >-
+    “Here is where the lovely testimonial would go saying lots of nice things.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”
+  name: 'Name Name'
+  position: 'Position'
 ---
-Continua Solutions offers simple, scalable solutions to its clients.  What better way to demonstrate that than to put my money were my mouth is and build a fit-for-purpose ISO 9001 management system for my own company?
+Requested by Vecor Pipeline Integrity to plan, facilitate and write-up a series of on-site workshops designed to help Senior Management identify their annual Strategic Objectives.   
 
-<p class="letter-style">“I decided early on in the life of the company that the best way to understand my clients perspective on management systems would be to take a walk in their shoes.  For that reason I decided to build an ISO9001:2015 management system for my own company following the same methodology which I offer to my clients.”</p>
 
-**And in June 2018 I achieved that objective when DNV certified Continua Solutions to ISO 9001:2015.**
 
-Over the years I’ve had the opportunity to see management systems from many angles; as the internal auditor for numerous clients, as the newbie on secondment ‘struggling’ with a new system for the first time (and trying to find ways to improve it), as a system ‘architect’ working with clients in the US and even as an actual assessor in my current role with the certification group LRQA.  However, I’ve never tried to build a system for my own company and I’ve never been through the certification process myself.
+The project will commence with a worksite engagement workshop (SWOT and Stakeholder Assessment) and then a Senior Management workshop (PESTEL, SWOT and Stakeholder Assessment).  A second day has been scheduled to allow Senior Management to draft a Company Vision and to risk assess company issues in relation to that Vision.  
 
-I used all the tools which I use to help build my clients systems: beginning with the all important Strategy and Risk workshop.  I mapped Continuas processes and identified areas where the key risks (and opportunities) lay.  I developed controls to manage those risks and considered how I was going to document, record, monitor, measure and improve my system.  I worked with Continuas associate Bill Barnes who acted as internal auditor for the company.  Finally, I undertook a management review and looked for ways to improve by reviewing all the work done, the data gathered and the lessons learned.  And while all of this was going on DNV came to the office and audited me.  
 
-<p class="letter-style">“It’s quite an experience being on the other side of the table; especially after years of being the one asking all the questions.  It really helped to re-establish what I already supposed… that no matter how much you prepare the auditing process is nerve wracking!  And no matter how much planning you do and how good a system you build there’s always the worry that you’ve missed something.”</p>
 
-The certification process has been an invaluable experience for me and for my company and I’m already taking what I have learned and applying it to my clients’ projects.  Most importantly of all I’m looking forwards to operating within a certified system and finding ways to improve my own processes to make my company more efficient, more profitable and more attractive to my clients.  
-
-[Visit our ISO 9001:2015 certification page](https://www.continuasolutions.com/iso-9001/)
-
-![ISO 9001:2015 Certification](/images/certification-featured.jpg)
-
-![Certification celebration](/images/certificationcelebration__6172.jpg)
-
-![Certification celebration](/images/certificationcelebration__6161.jpg)
-
-![Certification celebration](/images/certificationcelebration__6159.jpg)
+The resulting workshop report will present potential Strategic Objectives for the company (as per the output of the combined workshops.  The report will also list areas of highest risk within the business (in terms of impact upon the proposed Strategic Objectives).
