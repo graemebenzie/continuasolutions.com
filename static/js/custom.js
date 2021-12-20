@@ -114,7 +114,18 @@ $(document).ready(function(){
 		type: 'carousel',
 		// autoplay: 4000,
 		focusAt: 'center',
-		perView: 3
+		perView: 4,
+		breakpoints: {
+			1700: {
+				perView: 3
+			},
+			1024: {
+				perView: 2
+			},
+			600: {
+				perView: 1
+			}
+		}
 	});
 
 	glideCollab.mount()

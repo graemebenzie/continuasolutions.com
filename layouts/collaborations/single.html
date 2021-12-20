@@ -62,9 +62,10 @@
               <h3 class="h2" style="margin-top: 0px;">What {{ .Params.company.name }} had to say</h3>
           </div>
         <div class="col-md-6 col-lg-7 col-lg-offset-1 col-sm-12">
-              {{ .Params.feedback.feedback | markdownify }}
+              <p>{{ .Params.feedback.feedback | markdownify }}</p>
               <br/>
-              <p style="margin-top: 15px;"><b>{{ .Params.feedback.name }}</b></p>
+              <br/>
+              <p><b>{{ .Params.feedback.name }}</b></p>
               <p>{{ .Params.feedback.position}}, {{ .Params.company.name }}</p>
           </div>
   
