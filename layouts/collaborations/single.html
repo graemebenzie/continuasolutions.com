@@ -10,14 +10,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 w100">
-            <img src="{{ .Params.companyLogo.image }}" />
+            <img class="block" src="{{ .Params.companyLogo.image }}" style="float: none; width: auto;"/>
             <hr style="background-color: white; border-color: white;"/>
-            <p class="text-white">{{.Params.company.name }}<br/>
+            <p class="text-white" >{{.Params.company.name }}<br/>
             {{.Params.company.location }}</p>
 
         </div>
-      <div class="col-md-6 col-lg-7 col-lg-offset-1 col-sm-12 m48">
-            <h1 class="text-white">{{ .Title }}<span class="all-level">{{ .Params.subtitle }}</span></h1>
+      <div class="col-md-6 col-lg-7 col-lg-offset-1 m48">
+            <h1 class="text-white h2" style="margin-top: 0px; margin-bottom: 35px;">{{ .Title }}<span class="all-level">{{ .Params.subtitle }}</span></h1>
             <div class="text-white">{{ .Content }}</div>
         </div>
 
@@ -59,12 +59,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 w100">
-              <h3>What {{ .Params.company.name }} had to say</h3>
+              <h3 class="h2" style="margin-top: 0px;">What {{ .Params.company.name }} had to say</h3>
           </div>
-        <div class="col-md-6 col-lg-7 col-lg-offset-1 col-sm-12 m48">
+        <div class="col-md-6 col-lg-7 col-lg-offset-1 col-sm-12">
               {{ .Params.feedback.feedback | markdownify }}
               <br/>
-              <p><b>{{ .Params.feedback.name }}</b></p>
+              <p style="margin-top: 15px;"><b>{{ .Params.feedback.name }}</b></p>
               <p>{{ .Params.feedback.position}}, {{ .Params.company.name }}</p>
           </div>
   
@@ -79,7 +79,7 @@
       <div class="container">
         <div class="row">
           <div class="portfolio-items-wrapper ">
-            {{ range first 3 (shuffle (where (where .Site.Pages "Section" "collaborations") ("Title" "!=" .Title) or ("Collaborations" "!=" .Title) )) }}
+            {{ range first 3 (shuffle (where (where .Site.Pages "Section" "collaborations") "Title" "!=" .Title )) }}
               {{ partial "collab-item.html" . }}
             {{ end }}
             </div><!-- /.portfolio-items-wrapper -->

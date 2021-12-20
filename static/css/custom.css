@@ -115,7 +115,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: #23282f;
     font-family: "Raleway",sans-serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 h1 {
     font-size: 36px;
@@ -244,6 +244,7 @@ header {
 }
 .navbar-nav {
 	float:right;
+	flex-direction: unset;
 }
 .nav-outer .container-fluid ,
 .navbar-collapse {
@@ -966,7 +967,7 @@ footer .center p {
 .what-we {
 	float:left;
 	width:100%;
-	padding:50px 0;
+	padding:100px 0;
 }
 .what-we {
 	font-size:14px;
@@ -2484,8 +2485,8 @@ li img.banner-logo{
 
 .bg-lightblue {
 	background-color: #EAF0F8;
-	padding-top: 75px;
-    padding-bottom: 75px;
+	padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .bg-white {
@@ -2506,9 +2507,9 @@ li img.banner-logo{
 }
 
 .home-banner {
-	padding-top: 250px;
-    padding-bottom: 100px;
-    display: block;
+	padding-top: 200px;
+  padding-bottom: 100px;
+  display: block;
 }
 
 h1.homeh {
@@ -2519,7 +2520,7 @@ h1.homeh {
 	font-family: 'Roboto Slab', serif!important;
 }
 
-h2.homeh {
+h2.homeh, .h2, p.h2 {
 		text-transform: none!important;
 	line-height: 2.25rem;
 	font-size: 27px!important;
@@ -2544,11 +2545,11 @@ h2.homeh {
 	margin-bottom: 40px;
 	}
 	
-	h2.homeh {
+	h2.homeh, .h2, p.h2 {
 		font-size: 20px!important;
 		line-height: 1.9rem;	
 	}
-	
+	 
 	.bg-white {
 		padding-top:75px;
 		padding-bottom: 75px;
@@ -2608,7 +2609,7 @@ h2.homeh {
 }
 
 .process-heading {
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 }
 
 .tick-list {
