@@ -505,6 +505,19 @@ header {
 }
 
 /*==================================*/
+/* 	  Quality standard styles go here	*/
+/*==================================*/
+
+.quality-standards span {
+	display:inline-block;
+	margin-right:30px;
+}
+
+.quality-standards span:nth-child(2) {
+	margin-left: 30px;
+}
+
+/*==================================*/
 /* 	  features-section styles here	*/
 /*==================================*/
 
@@ -866,6 +879,9 @@ footer {
     min-height: 28px;
     text-transform: capitalize;
 
+}
+.menu-footer {
+	padding-left: 0px;
 }
 .menu-footer li , .menu-footer label {
 	list-style:none;
@@ -1916,6 +1932,21 @@ footer {background-size:75px 62px;}
 { padding-left:163px; }
 
 
+
+.quality-standards span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.quality-standards span:nth-child(3){
+	margin-bottom: 0px;
+}
+
+.quality-standards span {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
 	} /* End query */
 	
 @media (max-width:480px){
@@ -2417,7 +2448,7 @@ li img.banner-logo{
 
 @media screen and ( max-width: 767px ){
 	.social-media-wrap{
-		width:192px;
+		width:fit-content;
 		margin:0 auto;
 	}
 
