@@ -80,7 +80,7 @@
       <div class="container">
         <div class="row">
           <div class="portfolio-items-wrapper ">
-            {{ range first 3 (shuffle (where (where .Site.Pages "Section" "collaborations") "Title" "!=" .Title )) }}
+            {{ range first 3 (shuffle ( where ( where (where .Site.Pages "Section" "collaborations") "Title" "!=" .Title ) "Title" "!=" "Collaborations" )) }}
               {{ partial "collab-item.html" . }}
             {{ end }}
             </div><!-- /.portfolio-items-wrapper -->
