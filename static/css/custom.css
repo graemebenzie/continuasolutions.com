@@ -2682,6 +2682,9 @@ p, .p {
 		padding: 50px 0px
 }
 
+.collaborations-lynee-image-col {
+	margin-top: 58px;
+}
 
 @media  ( min-width: 768px){
 
@@ -2692,6 +2695,10 @@ p, .p {
 
 	.what-we {
 		padding: 100px 0px
-	}	
+	}
+
+	.collaborations-lynee-image-col {
+		margin-top: 0px;
+	}
 
 }

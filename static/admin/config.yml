@@ -69,8 +69,9 @@ collections:
         name: "company"
         widget: "object"
         fields:
-          - {label: "Company Name", name: "name", widget: "string", required: false}
-          - {label: "Company Location", name: "location", widget: "string", required: false}
+          - {label: "Name", name: "name", widget: "string", required: false}
+          - {label: "Location", name: "location", widget: "string", required: false}
+          - {label: "Website", name: "website", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - label: "Featured Image"

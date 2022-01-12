@@ -5,6 +5,7 @@ draft: false
 company:
   name: 'Vecor Pipeline Integrity'
   location: 'Sugar Land, Texas'
+  website: 'https://vecor-pi.com/'
 companyLogo:
   image: /images/img_vecor.svg
 featuredImage:

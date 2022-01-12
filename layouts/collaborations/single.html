@@ -10,13 +10,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 w100">
-            <img class="block" src="{{ .Params.companyLogo.image }}" style="float: none; width: auto;"/>
+            <a href="{{ .Params.company.website }}" target="_blank"><img class="block" alt="Visit {{ .Params.company.name }} website" src="{{ .Params.companyLogo.image }}" style="float: none; width: auto;"/></a>
             <hr style="background-color: white; border-color: white;"/>
-            <p class="text-white" >{{.Params.company.name }}<br/>
+            <p class="text-white" ><b>{{.Params.company.name }}</b><br/>
             {{.Params.company.location }}</p>
 
         </div>
-      <div class="col-md-6 col-lg-7 col-lg-offset-1 m48">
+        <div class="col-md-6 col-lg-7 col-lg-offset-1 m48">
             <h1 class="text-white h2" style="margin-top: 0px; margin-bottom: 35px;">{{ .Title }}<span class="all-level">{{ .Params.subtitle }}</span></h1>
             <div class="text-white">{{ .Content }}</div>
         </div>
@@ -78,6 +78,14 @@
 
     <div class="what-we portfolio-grid">
       <div class="container">
+        <div style="max-width: 530px;">
+          <h3 class="h2">Other Collaborations</h3>
+          <br/>
+          <p>Take a look at some of the projects and events which Continua has collaborated on.</p>
+          <br/>
+          <br/>
+          <br/>
+        </div>
         <div class="row">
           <div class="portfolio-items-wrapper ">
             {{ range first 3 (shuffle ( where ( where (where .Site.Pages "Section" "collaborations") "Title" "!=" .Title ) "Title" "!=" "Collaborations" )) }}
