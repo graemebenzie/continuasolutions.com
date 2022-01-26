@@ -65,6 +65,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter      
       - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - label: "Company"
         name: "company"
@@ -74,7 +75,6 @@ collections:
           - {label: "Location", name: "location", widget: "string", required: false}
           - {label: "Website", name: "website", widget: "string", required: false}
           - {label: "Logo", name: "logo", widget: "image"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - label: "Featured Image"
         name: "image"
         widget: "object"
