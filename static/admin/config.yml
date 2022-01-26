@@ -73,12 +73,7 @@ collections:
           - {label: "Name", name: "name", widget: "string", required: false}
           - {label: "Location", name: "location", widget: "string", required: false}
           - {label: "Website", name: "website", widget: "string", required: false}
-      - label: "Company Logo"
-        name: "companyLogo"
-        widget: "object"
-        fields:
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Alt Text", name: "alt", widget: "image"}
+          - {label: "Logo", name: "logo", widget: "image"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - label: "Featured Image"
         name: "image"
