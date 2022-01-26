@@ -80,15 +80,14 @@ collections:
         widget: "object"
         fields:
           - {label: "Image", name: "image", widget: "image"}
-          - {label: "Alt Text", name: "alt", widget: "image"}
-
+          - {label: "Alt Text", name: "alt", widget: "string"}
       - label: "Images"
         name: "images"
         minimize_collapsed: true
         widget: "list"
         fields:
           - {label: "Image", name: "image", widget: "image"}
-          - {label: "Alt Text", name: "alt", widget: "image"}
+          - {label: "Alt Text", name: "alt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Feedback"
         name: "feedback"
