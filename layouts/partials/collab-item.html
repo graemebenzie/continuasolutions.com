@@ -2,7 +2,7 @@
   <a class="portfolio-items-single-url" href="{{.Permalink}}" title="{{ .Title }}">
     <div class="bg-purple item-container" style="padding-bottom: 30px;">
 
-        <img src="{{ .Params.featuredImage.image }}" class="attachment-full" alt="folio7" />
+        <img src="{{ .Params.featuredImage.image }}" class="attachment-full" alt="{{ .Params.featuredImage.alt}}" />
         <div class="collab-item-info">
             <h4 class="text-white collab-item-company-name">{{ .Params.company.name }}</h4>
             <p class="portfolio-items-single-overlay-details-title text-white">{{ .Title }}</p>
