@@ -20,7 +20,7 @@ images:
   - image: /images/img_6005-pichi.jpg
     alt: "Two people sitting on sports seats in audience "
 feedback:
-  feedback: Waiting for feedback
+  feedback: Waiting for
   name: NA
   position: NA
 ---
