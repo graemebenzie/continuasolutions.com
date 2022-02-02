@@ -76,7 +76,7 @@ collections:
           - {label: "Website", name: "website", widget: "string", required: false}
           - {label: "Logo", name: "logo", widget: "image"}
       - label: "Featured Image"
-        name: "image"
+        name: "featuredImage"
         widget: "object"
         fields:
           - {label: "Image", name: "image", widget: "image"}

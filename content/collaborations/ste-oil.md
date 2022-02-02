@@ -7,7 +7,7 @@ company:
   location: San Marcos, Texas
   website: https://www.steoil.com/
   logo: /images/ste-logo-reversed.png
-image:
+featuredImage:
   image: /images/img_1850-pichi.jpg
   alt: Woman and man standing in front of warehouse process board
 images:
