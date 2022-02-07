@@ -5,7 +5,7 @@ date: 2022-02-02T15:04:09.836Z
 company:
   name: STE Oil
   location: San Marcos, Texas
-  website: https://www.steoil.com/
+  website: www.steoil.com
   logo: /images/ste-logo-reversed.png
 featuredImage:
   image: /images/img_1850-pichi.jpg
