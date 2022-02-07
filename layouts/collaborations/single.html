@@ -9,12 +9,12 @@
     <div class="inner-banner large-section-padding continua-news bg-purple">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 w100">
-            <a href="{{ .Params.company.website }}" target="_blank"><img class="block" alt="Visit {{ .Params.company.name }} website" src="{{ .Params.company.logo }}" style="float: none; width: auto;"/></a>
+        <div class="col-lg-4 col-md-6 col-sm-12 w100 m48">
+            <img class="block" alt="Visit {{ .Params.company.name }} website" src="{{ .Params.company.logo }}" style="float: none; width: auto;"/>
             <hr style="background-color: white; border-color: white;"/>
-            <p class="text-white" ><b>{{.Params.company.name }}</b><br/>
+            <p class="text-white" style="margin-bottom: 0px;"><b>{{.Params.company.name }}</b><br/>
             {{.Params.company.location }}</p>
-
+            <a class="p underline" style="color: white" href="{{ .Params.company.website }}" target="_blank">{{ .Params.company.website }}</a>
         </div>
         <div class="col-md-6 col-lg-7 col-lg-offset-1 m48">
             <h1 class="text-white h2" style="margin-top: 0px; margin-bottom: 35px;">{{ .Title }}<span class="all-level">{{ .Params.subtitle }}</span></h1>
@@ -39,7 +39,7 @@
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
             {{ range .Params.images }}
-            <img class="slide__slide" src="{{ .image }}" alt="{{ .alt }}">
+            <img class="glide__slide" src="{{ .image }}" alt="{{ .alt }}">
             {{ end }}
           </ul>
         </div>
@@ -54,7 +54,7 @@
       </div>
     </div>
 
-
+    {{ if .Params.feedback }}
     <div class="feedback what-we bg-lightpurple">
       <div class="container">
         <div class="row">
@@ -73,6 +73,7 @@
         </div>
       </div>
     </div>
+    {{ end }}
 
     <!-- ============== collaborations section ============== -->
 

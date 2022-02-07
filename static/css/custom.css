@@ -2629,6 +2629,17 @@ h2.homeh, .h2, p.h2 {
 	line-height: 37px;
 }
 
+.glide__slides {
+	height: 50vh;
+	max-height: 500px;
+}
+
+.glide__slides .glide__slide img {
+	object-fit: cover;
+	width: auto;
+	height: 100%;
+}
+
 .section-padding {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -2673,9 +2684,13 @@ h2.homeh, .h2, p.h2 {
 	padding-left: 0px;
 }
 
-p, .p {
+p, .p, {
 	font-size: 1.0625rem;
 	line-height: 23px;
+}
+
+.underline {
+	text-decoration: underline !important;
 }
 
 .what-we {

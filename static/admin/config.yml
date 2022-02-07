@@ -93,9 +93,9 @@ collections:
         name: "feedback"
         widget: "object"
         fields:
-          - {label: "Feedback", name: "feedback", widget: "markdown"}
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "Position", name: "position", widget: "string"}
+          - {label: "Feedback", name: "feedback", widget: "markdown", required: false}
+          - {label: "Name", name: "name", widget: "string", required: false}
+          - {label: "Position", name: "position", widget: "string", required: false}
 
   - name: "clients" # Used in routes, e.g., /admin/collections/blog
     editor:
