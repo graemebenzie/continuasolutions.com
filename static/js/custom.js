@@ -78,18 +78,15 @@ $(document).ready(function(){
      
 	owl.owlCarousel({
 			
-		itemsCustom : [
-			[0, 1],
-			[450, 1],
-			[600, 2],
-			[640, 1],
-			[667, 1],
-			[1024, 2],
-			[1200, 2],
-			[1600, 2]
-		],
-		navigation : false,
-		pagination : true,
+	dots: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+    }
 	
 	});
 
