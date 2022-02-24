@@ -2634,9 +2634,8 @@ h2.homeh, .h2, p.h2 {
 	max-height: 500px;
 }
 
-.glide__slides .glide__slide img {
-	object-fit: cover;
-	width: auto;
+.glide__slides .glide__slide {
+	width: auto !important;
 	height: 100%;
 }
 
